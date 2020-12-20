@@ -109,8 +109,8 @@ theme:
   # Read More:
   # - https://squidfunk.github.io/mkdocs-material/getting-started/#favicon
   #
-  favicon: 'assets/img/avatar.jpg'
-  logo: 'assets/img/avatar.jpg'
+  favicon: 'assets/img/icon.jpg'
+  logo: 'assets/img/icon.jpg'
   #
   # Main settings for MkDocs Material's look such as primary and secondary colors,
   # light/dark theme, etc.
