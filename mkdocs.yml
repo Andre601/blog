@@ -201,7 +201,7 @@ extra:
   social:
     - icon: 'fontawesome/brands/github'
       link: 'https://github.com/Andre601'
-    - icon: 'fontawesome/solid/house'
+    - icon: 'fontawesome/solid/home'
       link: 'https://andre601.ch'
   #
   # The Manifest setting is provided by MkDocs Material and allows to define, how your web application should behave
