@@ -24,7 +24,7 @@
 site_name: Blog
 site_description: 'My personal Blog!'
 site_author: 'Andre_601'
-#site_url: 'https://github.andre601.com/mkdocs-template' # If you have a dedicated page set.
+site_url: 'https://www.andre601.ch/blog' # If you have a dedicated page set.
 
 #
 # This text would be displayed at the bottom of each page and uses normal HTML formatting.
@@ -71,6 +71,8 @@ repo_url: https://github.com/Andre601/blog
 #
 nav:
   - Welcome: index.md
+  - Posts:
+    - Posts: posts/index.md
 
 #
 # Options for the themes to use/set.
@@ -107,7 +109,8 @@ theme:
   # Read More:
   # - https://squidfunk.github.io/mkdocs-material/getting-started/#favicon
   #
-  favicon: 'assets/images/favicon.png'
+  favicon: 'assets/img/avatar.jpg'
+  logo: 'assets/img/avatar.jpg'
   #
   # Main settings for MkDocs Material's look such as primary and secondary colors,
   # light/dark theme, etc.
@@ -229,6 +232,8 @@ extra:
 # - https://www.mkdocs.org/user-guide/configuration/#markdown_extensions
 #
 markdown_extensions:
+  - markdown.extensions.meta
+  - markdown.extensions.attr_list
   - markdown.extensions.admonition:
   - markdown.extensions.codehilite:
       guess_lang: false
@@ -263,9 +268,9 @@ markdown_extensions:
   #- pymdownx.pathconverter:
   #- pymdownx.progressbar:
   #- pymdownx.smartsymbols:
-  #- pymdownx.snippets:
+  - pymdownx.snippets:
   #- pymdownx.striphtml:
   #- pymdownx.superfences:
   #- pymdownx.tabbed: # This extension requires the 'tabbed.css' to be used.
   #- pymdownx.tasklist:
-  #- pymdownx.tilde:
+  - pymdownx.tilde:
