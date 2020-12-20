@@ -46,7 +46,10 @@ Are you one of those people that received a mail from Kangarko (Matej) about the
 Well, he most likely got it through either PayPal (Looking at latest transactions) or even worse used the data of people he had from his very first (or the MA) courses to contact them.  
 I on my part go with second option as I myself received a "newsletter" I never signed up for from him, which constantly was about MA. I never signed up for MA and wondered why I suddenly got mails from that Domain. My thought imediatally went towards his old course that I signed up for (Yes I know. I regret this decision to this day).
 
-![exhibit a](/blog/assets/img/posts/in-defense-of-spigotmc/exhibit-a.jpg){: align=right }
+<figure>
+    <img src="/blog/assets/img/posts/in-defense-of-spigotmc/exhibit-a.jpg" alt="exhibit a" align="right" />
+    <figcaption>Various mails from Kangarko</figcaption>
+</figure>
 
 He for sure used the e-mails of all the buyers from his old course to advertise his new one, even if they never were interested (See Image on the right. Courtesy of Aj3douglas). Only after I contacted him and requested removal of my e-mail from the newsletter was it removed and the reason for why I got those mails provided: Their ToS apparently makes you agree to subscribe to it(?) This can't and probably isn't legal. There is a reason why pretty much every site has a checkbox about whether you want to subscribe to their newsletter or not, when you register an account, as it sure has legal reasons.  
 An end-user (you) needs a clear way to (un)subscribe to the newsletter or at least a clear info that you subscribe to one which Kangarko didn't provide. At least that's my basic knowledge about the legal system.
