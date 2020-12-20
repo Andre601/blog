@@ -69,6 +69,12 @@ He HAS to remove it as it is YOUR review and therefore belongs to you or at the 
 ## Conclusion
 I hope this rather long post convinces you about who Kangarko really is behind his plugins and that you won't blindly follow him and believe all the things he says.
 
-[^1]: ![Image 1](/blog/assets/img/posts/in-defense-of-spigotmc/image-1.jpg){: loading=lazy }
-[^2]: ![Image 2](/blog/assets/img/posts/in-defense-of-spigotmc/image-2.jpg){: loading=lazy }
-[^3]: ![Image 3](/blog/assets/img/posts/in-defense-of-spigotmc/image-3.jpg){: loading=lazy }
+[^1]:
+    Image 1: Mails from Kangarko (Image by Aj3douglas).  
+    ![Image 1](/blog/assets/img/posts/in-defense-of-spigotmc/image-1.jpg){: loading=lazy }
+[^2]:
+    Image 2: The Review I once made on Spigot, visible on MA.  
+    ![Image 2](/blog/assets/img/posts/in-defense-of-spigotmc/image-2.jpg){: loading=lazy }
+[^3]:
+    Image 3: The response to my request for removal of the Review.  
+    ![Image 3](/blog/assets/img/posts/in-defense-of-spigotmc/image-3.jpg){: loading=lazy }
