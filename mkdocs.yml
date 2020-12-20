@@ -269,6 +269,7 @@ markdown_extensions:
   #- pymdownx.progressbar:
   #- pymdownx.smartsymbols:
   - pymdownx.snippets:
+      base_path: 'docs/assets/snipets'
   #- pymdownx.striphtml:
   #- pymdownx.superfences:
   #- pymdownx.tabbed: # This extension requires the 'tabbed.css' to be used.

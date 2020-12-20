@@ -4,7 +4,7 @@ description: Why you shouldn't trust Kangarko
 
 ---
 
---8<-- back.md
+--8<-- "back.md"
 
 [post]: https://www.spigotmc.org/threads/478408
 [comment]: https://www.spigotmc.org/threads/82298/page-159#post-3129586
@@ -46,19 +46,19 @@ Are you one of those people that received a mail from Kangarko (Matej) about the
 Well, he most likely got it through either PayPal (Looking at latest transactions) or even worse used the data of people he had from his very first (or the MA) courses to contact them.  
 I on my part go with second option as I myself received a "newsletter" I never signed up for from him, which constantly was about MA. I never signed up for MA and wondered why I suddenly got mails from that Domain. My thought imediatally went towards his old course that I signed up for (Yes I know. I regret this decision to this day).
 
-![exhibit a](assets/img/posts/in-defense-of-spigotmc/exhibit-a.png){: align=right }
+![exhibit a](/assets/img/posts/in-defense-of-spigotmc/exhibit-a.png){: align=right }
 
 He for sure used the e-mails of all the buyers from his old course to advertise his new one, even if they never were interested (See Image on the right. Courtesy of Aj3douglas). Only after I contacted him and requested removal of my e-mail from the newsletter was the reason for why I got it provided: Their ToS apparently makes you agree to subscribe to it??? This can't and probably isn't legal. There is a reason why pretty much every site has a checkbox about whether you want to subscribe to their newsletter or not, when you register an account, as it sure has legal reasons.  
 An end-user (you) needs a clear way to (un)subscribe to the newsletter or at least a clear info that you subscribe to one which Kangarko didn't provide. At least that's my basic knowledge about the legal system.
 
 ## Point 3: Abuse of reviews
-![exhibit b](assets/img/posts/in-defense-of-spigotmc/exhibit-b.png){: align=right }
+![exhibit b](/assets/img/posts/in-defense-of-spigotmc/exhibit-b.png){: align=right }
 
 I yesterday discovered through a google search (Searched for "ChatControl Pro Andre_601" to find an old discussion I linked above) that a fairly old review of mine about ChatControl Pro has been posted on the MA site (See image).  
 It since then got removed as I requested the immediate removal of this post as I at no point gave the permission to Kangarko to use my review for whatever.  
 His response was signed with "Legal Team MA" while the mail itself was send from his personal MA-Mail account.
 
-![exhibit c](assets/img/posts/in-defense-of-spigotmc/exhibit-c.png){: align=left }
+![exhibit c](/assets/img/posts/in-defense-of-spigotmc/exhibit-c.png){: align=left }
 
 So either the Legal Team uses his account or he claims to be a Legal Team/attourney, which he most likely isn't.  
 I don't claim to be one either, but I know that the response he gave regarding my reviews existance on the MA Site is basically wrong in more than one way (Left image).  
