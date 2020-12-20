@@ -1,1 +1,1 @@
-[Go Back](/blog/posts)
+[Go Back](/blog/posts){: .md-button }
