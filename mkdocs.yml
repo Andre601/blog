@@ -145,25 +145,6 @@ theme:
   features:
     #- navigation.instant # This is an experimental feature.
     - navigation.tabs
-  #
-  # You can either use one of MkDocs Material's icon sets that are shiped with it (font awesome,
-  # material icons and Octicons) or define a relative path to a SVG or image file.
-  #
-  # The path is relative to the docs_dir, so an icon called icon.png that is located under docs/assets/images/
-  # would be set as assets/images/icon.png below.
-  #
-  # For SVG icons provided by MkDocs Material will  you need to provide the namespace they use.
-  # For Font Awesome icons is that fontawesome, for Material Design Icons is it material and for GitHub's Octicons is
-  # it octicons.
-  #
-  # Available Icons:
-  # - Font Awesome: https://fontawesome.com/icons?d=gallery&m=free
-  # - Material Design Icons: https://materialdesignicons.com/
-  # - Octicons: https://primer.style/octicons/ (formerly https://octicons.github.com)
-  #
-  icon:
-    logo: 'material/library'
-    repo: 'material/library'
 
 #
 # Uncomment the below option to add your own CSS/SCSS files to extend/alter the display and behaviour of pages.
