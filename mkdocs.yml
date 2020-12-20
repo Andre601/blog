@@ -21,8 +21,8 @@
 # - https://www.mkdocs.org/user-guide/configuration/#site_author
 # - https://www.mkdocs.org/user-guide/configuration/#site_url
 #
-site_name: MkDocs Template
-site_description: 'A template for future MkDocs wikis'
+site_name: Blog
+site_description: 'My personal Blog!'
 site_author: 'Andre_601'
 #site_url: 'https://github.andre601.com/mkdocs-template' # If you have a dedicated page set.
 
@@ -35,7 +35,7 @@ site_author: 'Andre_601'
 # - https://www.mkdocs.org/user-guide/configuration/#copyright
 #
 copyright: |
-  &copy; Author
+  &copy; Andre_601
 
 #
 # Set the folder for where the Markdown files can be found.
@@ -54,8 +54,8 @@ docs_dir: docs/
 # - https://www.mkdocs.org/user-guide/configuration/#repo_url
 # - https://www.mkdocs.org/user-guide/configuration/#edit_uri
 #
-repo_name: Andre601/mkdocs-template
-repo_url: https://github.com/Andre601/mkdocs-template
+repo_name: Andre601/blog
+repo_url: https://github.com/Andre601/blog
 #edit_uri: tree/master/docs # If you want the Edit option/URL to be different.
 
 #
@@ -118,21 +118,21 @@ theme:
     #
     # Uncomment this option, if you want to use the dark theme of MkDocs-Material.
     #
-    #scheme: 'slate'
+    scheme: 'slate'
     #
     # The primary color is used in the header (nav bar) for links, buttons, etc.
     #
     # Read More:
     # - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
     #
-    primary: 'indigo'
+    primary: 'grey'
     #
     # The accent color is used for when hovering over a link, button or similar.
     #
     # Read More:
     # - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
     #
-    accent: 'indigo'
+    accent: 'blue'
   #
   # MkDocs Material provides own features that can be anabled by adding them in the below list.
   #
@@ -200,7 +200,9 @@ extra:
   #
   social:
     - icon: 'fontawesome/brands/github'
-      link: 'https://github.com/Andre601/mkdocs-template'
+      link: 'https://github.com/Andre601'
+    - icon: 'fontawesome/solid/house'
+      link: 'https://andre601.ch'
   #
   # The Manifest setting is provided by MkDocs Material and allows to define, how your web application should behave
   # when installed on the user's mobile device or desktop.
@@ -247,14 +249,16 @@ markdown_extensions:
   #- pymdownx.caret:
   #- pymdownx.critic:
   #- pymdownx.details:
-  #- pymdownx.emoji:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   #- pymdownx.escapeall:
   #- pymdownx.extra:
   #- pymdownx.extrarawhtml:
   #- pymdownx.highlight:
   #- pymdownx.inlinehilite:
   #- pymdownx.keys:
-  #- pymdownx.magiclink:
+  - pymdownx.magiclink:
   #- pymdownx.mark:
   #- pymdownx.pathconverter:
   #- pymdownx.progressbar:
