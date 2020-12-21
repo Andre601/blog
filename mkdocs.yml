@@ -21,7 +21,7 @@
 # - https://www.mkdocs.org/user-guide/configuration/#site_author
 # - https://www.mkdocs.org/user-guide/configuration/#site_url
 #
-site_name: Blog
+site_name: 'Andre''s Blog'
 site_description: 'My personal Blog!'
 site_author: 'Andre_601'
 site_url: 'https://www.andre601.ch/blog' # If you have a dedicated page set.
