@@ -1,2 +1,2 @@
-lightgallery>=0.1.2
 mkdocs-material>=5.5.0
+lightgallery>=0.1.2
