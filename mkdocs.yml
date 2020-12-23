@@ -72,7 +72,7 @@ repo_url: https://github.com/Andre601/blog
 nav:
   - Welcome: index.md
   - Posts:
-    - Posts: posts/index.md
+    - Info: posts/index.md
     - '...'
 
 #
