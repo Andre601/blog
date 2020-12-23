@@ -73,7 +73,6 @@ nav:
   - Welcome: index.md
   - Posts:
     - Info: posts/index.md
-    - '...'
 
 #
 # Options for the themes to use/set.
