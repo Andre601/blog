@@ -73,6 +73,7 @@ nav:
   - Welcome: index.md
   - Posts:
     - Posts: posts/index.md
+    - '...'
 
 #
 # Options for the themes to use/set.
@@ -98,7 +99,7 @@ theme:
   # - https://www.mkdocs.org/user-guide/configuration/#custom_dir
   # - https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
   #
-  custom_dir: 'theme'
+  #custom_dir: 'theme'
   #
   # The path to the icon to display.
   #
@@ -257,4 +258,3 @@ markdown_extensions:
   #- pymdownx.tabbed: # This extension requires the 'tabbed.css' to be used.
   #- pymdownx.tasklist:
   - pymdownx.tilde:
-  - lightgallery:
