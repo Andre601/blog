@@ -1,1 +1,1 @@
-[Go Back](/blog/posts){: .md-button }
+[:fontawesome-solid-angle-double-left: Go Back](/blog/posts){: .md-button }
