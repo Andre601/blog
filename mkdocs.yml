@@ -69,10 +69,14 @@ repo_url: https://github.com/Andre601/blog
 # Please check out https://www.mkdocs.org/user-guide/configuration/#documentation-layout
 # for a more detailed explanation on this.
 #
-nav:
-  - Welcome: index.md
-  - Posts:
-    - Info: posts/index.md
+#nav:
+#  - Welcome: index.md
+#  - Posts:
+#    - Info: posts/index.md
+
+plugins:
+  - search
+  - awesome-pages
 
 #
 # Options for the themes to use/set.

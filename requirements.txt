@@ -1,1 +1,2 @@
 mkdocs-material>=5.5.0
+mkdocs-awesome-pages-plugin>=2.5.0
