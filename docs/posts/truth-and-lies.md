@@ -75,7 +75,7 @@ This post has been made with the help of MrDienns, who contributed a lot in find
 
 [^1]:
     Screenshot of the commercial guidelines (Screenshot by MrDienns)
-    ![commercial_guidelines](/blog/assets/posts/truth-and-lies/commercial_guidelines.jpg)
+    ![commercial_guidelines](/blog/assets/img/posts/truth-and-lies/commercial_guidelines.jpg)
 [^2]: https://www.spigotmc.org/threads/477722/
 [^3]: https://www.spigotmc.org/threads/361908/
 [^4]: https://www.change.org/p/md-5-treat-developers-fairly
