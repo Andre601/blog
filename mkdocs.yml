@@ -102,7 +102,7 @@ theme:
   # - https://www.mkdocs.org/user-guide/configuration/#custom_dir
   # - https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
   #
-  #custom_dir: 'theme'
+  custom_dir: 'theme'
   #
   # The path to the icon to display.
   #
