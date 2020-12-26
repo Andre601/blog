@@ -1,3 +1,8 @@
+---
+disqus: ""
+
+---
+
 # Blog Posts
 Here you can find all the Blog Posts I made so far.
 
