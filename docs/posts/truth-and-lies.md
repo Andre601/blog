@@ -7,7 +7,7 @@ description: Why claims of popular devs might not be the truth.
 --8<-- "back.md"
 
 # Truth and Lies
-There have been several posts and claims regarding PayPal where they are "banning the selling of products related to Minecraft" which isn't true at all, but I'll talk about why in a bit.
+There have been several posts and claims regarding PayPal where they are "banning the selling of products related to Minecraft" or about SpigotMC making unjustified bans of Developers which isn't true at all, but I'll talk about why in a bit.
 
 ## How did this start?
 This started (or at least became more popular) when Songoda, a group of plugin developers under Brianna, the owner of Songoda, has been banned by PayPal. They announced this on their Discord and made the claim there, which caused an outrage from fans but also some developers as they now feared to lose a possible income if not even their PayPal account.  
@@ -69,7 +69,7 @@ Spigot gives you the option to upload resources (free or premium), write posts, 
 ## Final words and Credits
 I hope this post helps you to understand the current situation a bit better. For the future, make sure to second-guess claims made by people and don't just blindly trust those. It's in your benefit and the benefit of others to not make lies spread and cause drama.
 
-his post has been made with the help of MrDienns, who contributed a lot in finding evidence to argue against these unjustified claims.
+This post has been made with the help of MrDienns, who contributed a lot in finding evidence to argue against these unjustified claims.
 
 <!-- Footnotes -->
 
