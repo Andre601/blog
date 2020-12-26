@@ -206,7 +206,7 @@ extra:
   # Read More:
   # - https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/
   #
-  #disqus: 'name'
+  disqus: 'andre-blog'
 
 #
 # This section allows you to add "extensions" which (obviously) extend the default MkDocs behaviour in multiple
