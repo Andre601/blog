@@ -158,7 +158,8 @@ theme:
 # Read More:
 # - https://www.mkdocs.org/user-guide/configuration/#extra_css
 #
-#extra_css:
+extra_css:
+- assets/css/extra.css
 
 #
 # Uncomment the below option to add your own Javascript files to extend/alter the display and behaviour of pages.
