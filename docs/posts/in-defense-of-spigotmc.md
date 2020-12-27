@@ -20,7 +20,7 @@ Instead of banning him after the first few rule-breaks was the Spigot-Team forgi
 
 Kangarko now send a mail towards multiple people, claiming that Spigot is now "dead" and that they would pretty much act like a dictatorship now, banning people if they do things like selling their resources on other sites.
 
-@md_5 [made a post debunking those blatant claims][^1] and (yet again) defending SpigotMC and the team from people that believe a developer's claims without second thoughts.
+@md_5 made a post debunking those blatant claims[^1] and (yet again) defending SpigotMC and the team from people that believe a developer's claims without second thoughts.
 
 Kangarko is mostly known for his ChatControl Plus plugin alongside other plugins. He also made online courses which are hated and loved by various people (I hate them tbh).  
 But this is only the surface of who he really is. Behind this facade is he constantly abusing various things to his advantage in the hope of earning money.
@@ -33,7 +33,7 @@ For multiple reasons, including to not give Kangarko free publicity, will I use 
 Kangarko was banned for breaking the rules, but which ones exactly?  
 He for sure broke the rules about abusing the Update system for resources to promote sites/services outside of SpigotMC, in his case those courses I mentioned earlier.
 
-I, at one point, even [directly complained about him constantly posting "Promotions" in his plugin updates][^2].  
+I, at one point, even directly complained about him constantly posting "Promotions" in his plugin updates[^2].  
 But that wasn't all. He also posted those promotions in his own plugins! When the server started did you receive a nice little message in the console about his courses and the only way to disable this was a setting which wasn't easy to find.
 
 Note that this was before the rule about no ads in resource updates has become a thing and it's my personal headcanon that this behaviour of his was one of the main reasons why this rule was implemented.
