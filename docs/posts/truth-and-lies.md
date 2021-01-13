@@ -53,6 +53,12 @@ Actual ban reason on PayPal is unknown, but he has a history of scamming people 
 Banned from PayPal for being underaged (15-16 years old).[^9] He claims to have the parental approval but didn't provide any clear cut evidence to support this.  
 Additionally was this user associated with Songoda (Sold products on their site) which at least gets you limited by PayPal.  
 Finally are there also rumors about him creating false businesses[^10] which for sure would be a valid reason. Whether this is true or not is up to debate.
+- **Uxon**  
+*Ban reason on PayPal unknown*
+- **maxlego08**  
+*Ban reason on PayPal unknown*
+- **deret123**  
+*Ban reason on PayPal unknown*
 
 ### Fact 3: New Payment options wouldn't solve everything
 Multiple people demanded more payment options such as Stripe or even Crypto-currency as it would make things more easy.
