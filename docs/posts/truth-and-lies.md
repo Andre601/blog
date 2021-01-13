@@ -48,16 +48,17 @@ Banned from SpigotMC for constant inapropriate advertising (i.e. in recource upd
 - **GC.**  
 *Ban reason on PayPal unknown*
 - **Ome_R**  
-Actual ban reason on PayPal is unknown, but he has a history of scamming people by issuing $0.01 refunds to buyers to get them off the buyers list while keeping the money.[^8]
+Actual ban reason on PayPal is unknown, but he has issued several $0.01 refunds. While most of them where often to remove Leakers was at least one of those refunds out of frustration and hate.[^8] He later on apologized for this horrible mistake he made.[^9]
 - **GhastB**  
-Banned from PayPal for being underaged (15-16 years old).[^9] He claims to have the parental approval but didn't provide any clear cut evidence to support this.  
+Banned from PayPal for being underaged (15-16 years old).[^10] He claims to have the parental approval but didn't provide any clear cut evidence to support this.  
 Additionally was this user associated with Songoda (Sold products on their site) which at least gets you limited by PayPal.  
-Finally are there also rumors about him creating false businesses[^10] which for sure would be a valid reason. Whether this is true or not is up to debate.
+Finally are there also rumors about him creating false businesses[^11] which for sure would be a valid reason. Whether this is true or not is up to debate.
 
-### Fact 3: New Payment options won't solve anything
+### Fact 3: New Payment options won't solve everything
 Multiple people demanded more payment options such as Stripe or even Crypto-currency as it would make things more easy.  
-The truth is the exact oposite. Services like Stripe still require an age-verification including an ID-verification similar to PayPal's to create and use an account and not everyone wants to have a separate account just for purchaseing resources. The result wouldn't be a significant increase in sells and for sure wouldn't benefit Spigot at the end.  
-Cryptocurrency wouldn't help either and could even be a benefit for devs to scam off buyers (Making a $0.01 refund to remove the buyer from list) which would cause more moderation actions from Spigot's end.
+While payment options like Stripe would indeed offer options such as buying products with only a debit-card and no account, would it still offer potential issues and risks, such as that minors could easly spend large amounts of money without parental supervision, while PayPal has a requirement to either be of the age of maturity or have your parents permission and supervision.  
+
+Cryptocurrency was another suggested alternative, mostly for privacy and availability. The downside of those would be higher fees for payments and possibly higher moderation work on Spigot's end as anonymity could also be a ground for possible scam.
 
 ### Fact 4: Spigot doesn't owe you anything
 Some posts where written in a way where the Author really demanded from Spigot to do what they want. Their supposed reasons behind this is, that popular devs bring traffic and money to Spigot which couldn't be further from the truth.  
@@ -83,6 +84,7 @@ I hope this post helps you to understand the current situation a bit better. For
     https://twitter.com/MVdWSoftware/status/1277747348031057921?s=19
 [^6]: https://www.spigotmc.org/threads/478370/ (See also [My Blog Post](/blog/posts/in-defense-of-spigotmc))
 [^7]: https://www.spigotmc.org/threads/478408/
-[^8]: https://www.spigotmc.org/threads/an-author-just-revoked-my-licence-because-i-gave-him-1-star.384226/page-3#post-3477985
-[^9]: https://www.spigotmc.org/threads/how-to-get-banned-on-paypal-an-official-spigot-mc-market-guide.478827/page-2#post-4031719
-[^10]: https://www.spigotmc.org/threads/how-to-get-banned-on-paypal-an-official-spigot-mc-market-guide.478827/page-3#post-4031745
+[^8]: https://www.spigotmc.org/threads/384226/page-3#post-3477985
+[^9]: https://www.spigotmc.org/threads/384753/
+[^10]: https://www.spigotmc.org/threads/478827/page-2#post-4031719
+[^11]: https://www.spigotmc.org/threads/478827/page-3#post-4031745
