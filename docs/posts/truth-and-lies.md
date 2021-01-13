@@ -54,10 +54,9 @@ Banned from PayPal for being underaged (15-16 years old).[^9] He claims to have 
 Additionally was this user associated with Songoda (Sold products on their site) which at least gets you limited by PayPal.  
 Finally are there also rumors about him creating false businesses[^10] which for sure would be a valid reason. Whether this is true or not is up to debate.
 
-### Fact 3: New Payment options won't solve anything
-Multiple people demanded more payment options such as Stripe or even Crypto-currency as it would make things more easy.  
-The truth is the exact oposite. Services like Stripe still require an age-verification including an ID-verification similar to PayPal's to create and use an account and not everyone wants to have a separate account just for purchaseing resources. The result wouldn't be a significant increase in sells and for sure wouldn't benefit Spigot at the end.  
-Cryptocurrency wouldn't help either and could even be a benefit for devs to scam off buyers (Making a $0.01 refund to remove the buyer from list) which would cause more moderation actions from Spigot's end.
+### Fact 3: New Payment options wouldn't solve everything
+Multiple people demanded more payment options such as Stripe or even Crypto-currency as it would make things more easy.
+Services like Stripe still require an age-verification including an ID-verification similar to PayPal's in order to use the service as a seller. On the other hand, stripe would make it possible to buy from the age of 13 by simply having a debit card. Not everyone wants to have a separate account just for purchasing resources, stripe would therefore be an excellent solution to avoid people having to create a paypal account (which requires you to be 18). Cryptocurrencies would be an excellent means of offering a free and privacy-friendly alternative, but it would probably be little used, would cost a lot of money in transaction fees, and could make litigation procedures more complicated for users.
 
 ### Fact 4: Spigot doesn't owe you anything
 Some posts where written in a way where the Author really demanded from Spigot to do what they want. Their supposed reasons behind this is, that popular devs bring traffic and money to Spigot which couldn't be further from the truth.  
