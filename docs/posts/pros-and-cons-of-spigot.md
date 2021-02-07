@@ -58,7 +58,7 @@ Even more does the staff punish a dev, if they apply own measurements to protect
 [^4]: https://www.spigotmc.org/threads/31667/ (Only for premium resources)
 [^5]: https://www.spigotmc.org/wiki/spigot-rules/
 [^6]:
-    https://www.spigotmc.org/forums/52/
+    https://www.spigotmc.org/forums/52/  
     https://www.spigotmc.org/forums/23/
 [^7]: https://www.spigotmc.org/forums/5/
 [^8]: https://www.spigotmc.org/members/20461/
