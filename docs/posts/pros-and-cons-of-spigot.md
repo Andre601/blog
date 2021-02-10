@@ -3,6 +3,8 @@ title: The Pros and Cons of SpigotMC
 description: The positives and negatives about SpigotMC.org (The forum)
 ---
 
+--8<-- "back.md"
+
 # The Pros and Cons of SpigotMC
 SpigotMC[^1] is a well-known site and software in the Minecraft-Community. Almost 200,000 servers are modded Minecraft Servers from which almost 46% are Spigot (~70,000 server)[^2].
 
