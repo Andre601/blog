@@ -48,11 +48,11 @@ The forum staff often does not enforce the rules like they should be.
 A good example is the premium plugin Wormholes.  
 According to the Premium Resource Guidelines will a plugin that didn't receive an update within 6 months get moved to the InactiveResource[^8] account of the forum. If it then doesn't get any updates for another 6 months will it be permanently deleted.  
 In our example was this never happening. The plugin, despite it having no updates since 2018 (2 years!), is still on the forum. It never was deleted or just put to the InactiveResource account as the Guidelines demand.  
-Only after I made a public post about it was it now moved to the account. The post I made was coincidentally deleted, which shows, that the staff team didn't like what I said to them.
+Only after I made a public post about it was it now moved to the account.[^9]
 
 ### No support for Premium Plugin Devs
 A big issue many developers have with Spigot is its lack in helping them protecting their Premium resources.  
-Even more does the staff punish a dev, if they apply own measurements to protect their work, such as a license-system or obfuscation with not allowed types/methods.[^9]
+Even more does the staff punish a dev, if they apply own measurements to protect their work, such as a license-system or obfuscation with not allowed types/methods.[^10]
 
 [^1]: https://www.spigotmc.org
 [^2]: https://bstats.org/global/bukkit
@@ -64,4 +64,5 @@ Even more does the staff punish a dev, if they apply own measurements to protect
     https://www.spigotmc.org/forums/23/
 [^7]: https://www.spigotmc.org/forums/5/
 [^8]: https://www.spigotmc.org/members/20461/
-[^9]: https://www.spigotmc.org/threads/420746/
+[^9]: https://www.spigotmc.org/threads/488104/
+[^10]: https://www.spigotmc.org/threads/420746/
