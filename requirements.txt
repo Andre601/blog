@@ -1,4 +1,4 @@
 mkdocs-material>=5.5.0
 mkdocs-awesome-pages-plugin>=2.5.0
-git+git://github.com/Andre601/mkdocs-pagenav-generator.git
-git+git://github.com/g-provost/lightgallery-markdown#egg=lightgallery
+git+https://github.com/Andre601/mkdocs-pagenav-generator
+git+https://github.com/g-provost/lightgallery-markdown#egg=lightgallery
