@@ -74,11 +74,6 @@ repo_url: https://github.com/Andre601/blog
 #  - Posts:
 #    - Info: posts/index.md
 
-plugins:
-  - search
-  - awesome-pages
-  - pagenav-generator
-
 #
 # Options for the themes to use/set.
 #
@@ -150,6 +145,7 @@ theme:
   features:
     #- navigation.instant # This is an experimental feature.
     - navigation.tabs
+    - navigation.expand
 
 #
 # Uncomment the below option to add your own CSS/SCSS files to extend/alter the display and behaviour of pages.
@@ -210,6 +206,17 @@ extra:
   #
   disqus: 'andre-blog'
 
+
+plugins:
+  - search
+  - awesome-pages
+  - pagenav-generator
+  - redirects:
+      redirect_maps:
+        'posts/in-defense-of-spigotmc.md': 'posts/2020/12-20-in-defense-of-spigotmc.md'
+        'posts/truth-and-lies.md': 'posts/2020/12-24-truth-and-lies.md'
+        'posts/pros-and-cons-of-spigot.md': 'posts/2021/02-07-pros-and-cons-of-spigot.md'
+
 #
 # This section allows you to add "extensions" which (obviously) extend the default MkDocs behaviour in multiple
 # ways.
@@ -227,7 +234,7 @@ markdown_extensions:
       guess_lang: false
   - markdown.extensions.toc:
       permalink: true
-  - lightgallery:
+  #- lightgallery:
   #
   # Uncomment the PyMdown extension you want to use.
   # Note that some might need additional settings to be added.
