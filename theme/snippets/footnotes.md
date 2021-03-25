@@ -1,3 +1,4 @@
+----
 ## Footnotes {: #__footnotes }
 
 <!-- Footnotes -->
