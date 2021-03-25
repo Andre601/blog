@@ -68,6 +68,8 @@ I hope this rather long post convinces you about who Kangarko really is behind h
 
 --8<-- "footnotes.md"
 
+<!-- Footnotes -->
+
 [^1]: https://www.spigotmc.org/threads/478408
 [^2]: https://www.spigotmc.org/threads/82298/page-159#post-3129586
 [^3]:
