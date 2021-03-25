@@ -229,6 +229,7 @@ markdown_extensions:
   - markdown.extensions.meta:
   - markdown.extensions.attr_list:
   - markdown.extensions.footnotes:
+      place_marker: "<!-- Footnotes -->"
   - markdown.extensions.admonition:
   - markdown.extensions.codehilite:
       guess_lang: false
