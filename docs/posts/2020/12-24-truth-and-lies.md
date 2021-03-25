@@ -70,6 +70,8 @@ Spigot gives you the option to upload resources (free or premium), write posts, 
 ## Final words and Credits
 I hope this post helps you to understand the current situation a bit better. For the future, make sure to second-guess claims made by people and don't just blindly trust those. It's in your benefit and the benefit of others to not make lies spread and cause drama.
 
+--8<-- "footnotes.md"
+
 <!-- Footnotes -->
 
 [^1]:
