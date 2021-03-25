@@ -5,6 +5,19 @@ description: The positives and negatives about SpigotMC.org (The forum)
 
 --8<-- "back.md"
 
+[^1]: https://www.spigotmc.org
+[^2]: https://bstats.org/global/bukkit
+[^3]: https://www.spigotmc.org/resources/
+[^4]: https://www.spigotmc.org/threads/31667/ (Only for premium resources)
+[^5]: https://www.spigotmc.org/wiki/spigot-rules/
+[^6]:
+    https://www.spigotmc.org/forums/52/  
+    https://www.spigotmc.org/forums/23/
+[^7]: https://www.spigotmc.org/forums/5/
+[^8]: https://www.spigotmc.org/members/20461/
+[^9]: https://www.spigotmc.org/threads/488104/
+[^10]: https://www.spigotmc.org/threads/420746/
+
 # The Pros and Cons of SpigotMC
 SpigotMC[^1] is a well-known site and software in the Minecraft-Community. Almost 200,000 servers are modded Minecraft Servers from which almost 46% are Spigot (~70,000 server)[^2].
 
@@ -54,15 +67,4 @@ Only after I made a public post about it was it now moved to the account.[^9]
 A big issue many developers have with Spigot is its lack in helping them protecting their Premium resources.  
 Even more does the staff punish a dev, if they apply own measurements to protect their work, such as a license-system or obfuscation with not allowed types/methods.[^10]
 
-[^1]: https://www.spigotmc.org
-[^2]: https://bstats.org/global/bukkit
-[^3]: https://www.spigotmc.org/resources/
-[^4]: https://www.spigotmc.org/threads/31667/ (Only for premium resources)
-[^5]: https://www.spigotmc.org/wiki/spigot-rules/
-[^6]:
-    https://www.spigotmc.org/forums/52/  
-    https://www.spigotmc.org/forums/23/
-[^7]: https://www.spigotmc.org/forums/5/
-[^8]: https://www.spigotmc.org/members/20461/
-[^9]: https://www.spigotmc.org/threads/488104/
-[^10]: https://www.spigotmc.org/threads/420746/
+--8<-- "footnotes.md"
