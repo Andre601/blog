@@ -54,6 +54,10 @@ Only after I made a public post about it was it now moved to the account.[^9]
 A big issue many developers have with Spigot is its lack in helping them protecting their Premium resources.  
 Even more does the staff punish a dev, if they apply own measurements to protect their work, such as a license-system or obfuscation with not allowed types/methods.[^10]
 
+--8<-- "footnotes.md"
+
+<!-- Footnotes -->
+
 [^1]: https://www.spigotmc.org
 [^2]: https://bstats.org/global/bukkit
 [^3]: https://www.spigotmc.org/resources/
