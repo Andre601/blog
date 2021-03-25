@@ -230,6 +230,7 @@ markdown_extensions:
   - markdown.extensions.attr_list:
   - markdown.extensions.footnotes:
       PLACE_MARKER: "<!-- Footnotes -->"
+      BACKLINK_TEXT: "&#8593"
   - markdown.extensions.admonition:
   - markdown.extensions.codehilite:
       guess_lang: false

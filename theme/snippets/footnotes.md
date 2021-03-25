@@ -1,4 +1,3 @@
-----
-## Footnotes {: #__footnotes }
+### Footnotes {: #__footnotes }
 
-///Footnotes Go Here///
+<!-- Footnotes -->
