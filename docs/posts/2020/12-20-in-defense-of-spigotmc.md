@@ -66,6 +66,8 @@ He HAS to remove it as it is YOUR review and therefore belongs to you or at the 
 ## Conclusion
 I hope this rather long post convinces you about who Kangarko really is behind his plugins and that you won't blindly follow him and believe all the things he says.
 
+--8<-- "footnotes.md"
+
 [^1]: https://www.spigotmc.org/threads/478408
 [^2]: https://www.spigotmc.org/threads/82298/page-159#post-3129586
 [^3]:
