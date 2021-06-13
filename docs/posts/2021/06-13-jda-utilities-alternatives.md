@@ -27,24 +27,18 @@ A Command Library for JDA.
 Note that this library does NOT have an in-build command handler. You will need to setup your own. Additionally does the library use a Annotation-based system for a command setup.
 
 !!! info "Features"
-    **Supported:**
-    
-    - :octicons-check-24:{ .octicons-true } Commands
-    
-    **Not Supported**:
-    
-    - :octicons-x-24:{ .octicons-false } Slash-Commands
-    - :octicons-x-24:{ .octicons-false } EventWaiter
-    - :octicons-x-24:{ .octicons-false } Pagination (Menus)
+    - Commands: :octicons-check-24:
+    - Slash-Commands: :octicons-x-24: (Planned)
+    - Pagination (Menus): :octicons-x-24:
 
+## JDA-Chewtils
+https://github.com/chew/JDA-Chewtils
 
-
+Fork of the original JDA-Utilities with added support for Slash-Commands and other beneficial changes.
 
 !!! info "Features"
-    **Supported:**
-    
-    - :octicons-check-24:{ .octicons-true } 
-    
-    **Not Supported**:
-    
-    - :octicons-x-24:{ .octicons-false } 
+    - Commands: :octicons-check-24:
+    - Slash-Commands: :octicons-check-24:
+    - Pagination (Menus): :octicons-check-24:
+
+--8<-- "footnotes.md"
