@@ -29,6 +29,7 @@ Note that this library does NOT have an in-build command handler. You will need 
 !!! info "Features"
     - Commands: :octicons-check-24:
     - Slash-Commands: :octicons-x-24: (Planned)
+    - Event Waiting: :octicons-x-24:
     - Pagination (Menus): :octicons-x-24:
 
 ## JDA-Chewtils
@@ -39,6 +40,18 @@ Fork of the original JDA-Utilities with added support for Slash-Commands and oth
 !!! info "Features"
     - Commands: :octicons-check-24:
     - Slash-Commands: :octicons-check-24:
+    - Event Waiting: :octicons-check-24:
+    - Pagination (Menus): :octicons-check-24:
+
+## BotCommands
+https://github.com/freya022/BotCommands
+
+Command library that also offers support for Event waiting and other things
+
+!!! info "Features"
+    - Commands: :octicons-check-24:
+    - Slash-Commands: :octicons-check-24:
+    - Event Waiting: :octicons-check-24:
     - Pagination (Menus): :octicons-check-24:
 
 --8<-- "footnotes.md"
