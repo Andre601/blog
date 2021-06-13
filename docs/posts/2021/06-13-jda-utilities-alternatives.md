@@ -52,6 +52,6 @@ Command library that also offers support for Event waiting and other things
     - Commands: :octicons-check-24:
     - Slash-Commands: :octicons-check-24:
     - Event Waiting: :octicons-check-24:
-    - Pagination (Menus): :octicons-check-24:
+    - Pagination (Menus): :octicons-x-24:
 
 --8<-- "footnotes.md"
