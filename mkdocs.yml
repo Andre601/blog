@@ -216,7 +216,7 @@ plugins:
         'posts/in-defense-of-spigotmc.md': 'posts/2020/12-20-in-defense-of-spigotmc.md'
         'posts/truth-and-lies.md': 'posts/2020/12-24-truth-and-lies.md'
         'posts/pros-and-cons-of-spigot.md': 'posts/2021/02-07-pros-and-cons-of-spigot.md'
-        'jda-utils-alternatives.md': 'posts/2021/06-13-jda-utilities-alternatives.d'
+        'jda-utils-alternatives.md': 'posts/2021/06-13-jda-utilities-alternatives.md'
 
 #
 # This section allows you to add "extensions" which (obviously) extend the default MkDocs behaviour in multiple
