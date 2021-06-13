@@ -5,3 +5,12 @@
 div.footnote > hr {
     display: none;
 }
+
+
+.twemoji .octicons-true {
+    color: #3FB950;
+}
+
+.twemoji .octicons-false {
+    color: #F85149;
+}
