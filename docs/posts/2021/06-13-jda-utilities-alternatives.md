@@ -29,13 +29,13 @@ Note that this library does NOT have an in-build command handler. You will need 
 !!! info "Features"
     **Supported:**
     
-    - :octicons-check-24: { .octicons-true } Commands
+    - :octicons-check-24:{ .octicons-true } Commands
     
     **Not Supported**:
     
-    - :octicons-x-24: { .octicons-false } Slash-Commands
-    - :octicons-x-24: { .octicons-false } EventWaiter
-    - :octicons-x-24: { .octicons-false } Pagination (Menus)
+    - :octicons-x-24:{ .octicons-false } Slash-Commands
+    - :octicons-x-24:{ .octicons-false } EventWaiter
+    - :octicons-x-24:{ .octicons-false } Pagination (Menus)
 
 
 
@@ -43,8 +43,8 @@ Note that this library does NOT have an in-build command handler. You will need 
 !!! info "Features"
     **Supported:**
     
-    - :octicons-check-24: { .octicons-true } 
+    - :octicons-check-24:{ .octicons-true } 
     
     **Not Supported**:
     
-    - :octicons-x-24: { .octicons-false } 
+    - :octicons-x-24:{ .octicons-false } 
