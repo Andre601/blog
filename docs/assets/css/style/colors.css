@@ -7,10 +7,10 @@ div.footnote > hr {
 }
 
 
-.octicons-true {
+.twemoji .octicons-true {
     color: #3FB950;
 }
 
-.octicons-false {
+.twemoji .octicons-false {
     color: #F85149;
 }
