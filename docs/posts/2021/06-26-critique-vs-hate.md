@@ -37,7 +37,7 @@ While it is normal to assume, that some products may require a bit more advanced
 Take my previously mentioned case of Renovatebot. I never really used it before and was more used to Dependabot, which not only has a different, more simplified configuration file, but also doesn't offer any feature that Renovate does.  
 On top of that does the docs, while detailed, not give a lot of cross-links to go to pages of interest in f.e. the "Getting Started" Guide[^2].
 
-Now take for comparison Material for MkDocs Starting Guide[^3].  
+Now take for comparison Material for MkDocs' Starting Guide[^3].  
 On these docs do we have a lot of detailed explanations with links to various other pages to explain specific key-points in more detail. In addition does it have a more natural progression of difficulty:  
 You start out with how to install the theme alongside MkDocs, then get an explanation on how to create your first page, followed by how to publish it. Only after that do they give you more advanced things such as how to customize the theme, but this is logical since it's now expected that you have the knowledge from the previous steps to progress.
 
