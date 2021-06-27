@@ -265,7 +265,7 @@ markdown_extensions:
   #- pymdownx.mark:
   #- pymdownx.pathconverter:
   #- pymdownx.progressbar:
-  #- pymdownx.smartsymbols:
+  - pymdownx.smartsymbols:
   - pymdownx.snippets:
       base_path: 'theme/snippets'
   #- pymdownx.striphtml:
