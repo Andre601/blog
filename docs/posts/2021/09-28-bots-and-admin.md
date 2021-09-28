@@ -51,7 +51,7 @@ Administrator causes more harm than good in the long run. It may save you time, 
 
 Well, this can have different reasons, which I will cover some of here.
 
-### Reason 1) Lazyness
+### Reason 1) Laziness
 By far the most common reason for this. Giving the `Administrator` permission is easy and saves time because you don't have to setup channel-specific permissions.
 
 In todays say and age do we try to save time wherever possible and setting up channel permissions is also no exception from this goal.  
