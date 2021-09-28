@@ -17,7 +17,7 @@ description: A detailed explanation about why it is dangerous giving Administrat
 # Why you shouldn't give Bots or ask for Administrator
 
 !!! info
-    This post is originally from [SpigotMC][^1] but I decided to make this blog post to also improve some things from the original.
+    This post is originally from SpigotMC[^1] but I decided to make this blog post to also improve some things from the original.
 
 Bots are a wonderful thing on Discord. They can enhance and improve your Discord server and also protect it from harm.  
 However, a bot isn't unfailable and security is only as save as the person managing it. Because of that is giving the `Administrator` permission to a bot one of if not even the most dangerous thing you can do. The same goes for asking for this permission in the OAuth2 invite or even relying on it to function.
