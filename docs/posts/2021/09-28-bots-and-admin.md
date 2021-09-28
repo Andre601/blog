@@ -14,7 +14,7 @@ description: A detailed explanation about why it is dangerous giving Administrat
     Here is an example from my own bot which does not allow administrator as a valid permission for itself:  
     ![!image 1](/blog/assets/img/posts/bots-and-admin/image-1.jpg){: loading=lazy }
 
-# Why you shouldn't give Bots or ask from Administrator
+# Why you shouldn't give Bots or ask for Administrator
 
 !!! info
     This post is originally from [SpigotMC][^1] but I decided to make this blog post to also improve some things from the original.
