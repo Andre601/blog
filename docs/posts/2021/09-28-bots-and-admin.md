@@ -37,9 +37,9 @@ The only thing the bot can't do is delete the server as this is only doable by t
 
 ## Bots are NOT safe!
 A Discord bot will NEVER be as safe as the dev claims. No matter how many times they mention how secure their bot is, will that not protect them from the biggest cause of errors: Being human.  
-A bot's security is only as good as the people that made it. A accessible eval-command or a leaked token is enough for a malicious person to gain access to the bot and cause chaos towards the servers.
+The bot's security is only as good as the people behind it. A unprotected eval-command, a leaked token or a hijacked account of the bot dev is enough for a malicious person to gain access to the bot and cause chaos towards the servers.
 
-And let's not forget that a developer may not always be a pure of heart person. They can at one point have a hate towards others or their account could get hijacked because they falled for one of those Nitro-scams going around Discord.
+And let's not forget that a developer may not always be a pure-of-heart person. They can at one point have a hate towards others.
 
 The fact is, that you should treat a Bot like a new user you never saw before and that randomly DMs you. Treat it carefully and don't just blindly trust it straight away. Just undoing bans is easier than undoing bans, recreating channels, change the icon and server name back, etc.  
 Administrator causes more harm than good in the long run. It may save you time, but at the cost of possibly getting your server nuked[^2].
