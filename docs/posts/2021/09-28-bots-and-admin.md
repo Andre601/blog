@@ -95,7 +95,7 @@ You should always think first, if the bot actually needs those permissions.
 - Can it work without it?
 - What bare minimum permissions can a bot work with? What other perms are only benefits (i.e. custom emotes)?
 
-You should always thing about what a bot really needs and not give it everything.
+You should always think about what a bot really needs and not give it everything.
 
 ## Final Words
 Thank you for reading.
