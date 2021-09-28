@@ -45,7 +45,9 @@ The fact is, that you should treat a Bot like a new user you never saw before an
 Administrator causes more harm than good in the long run. It may save you time, but at the cost of possibly getting your server nuked[^2].
 
 ## Why do people give/ask for Administrator?
-*"If this permission is so dangerous, why do people give bots it? And why do devs ask for it?"*
+
+!!! quote ""
+    *If this permission is so dangerous, why do people give it to bots? And why do Bot-developers ask for it?*
 
 Well, this can have different reasons, which I will cover some of here.
 
