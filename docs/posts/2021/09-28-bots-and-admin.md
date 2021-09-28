@@ -12,7 +12,7 @@ description: A detailed explanation about why it is dangerous giving Administrat
 [^5]: https://docs.discordsrv.com/Installation/#give-the-bot-the-discord-permissions-it-needs-to-run
 [^6]:
     Here is an example from my own bot which does not allow administrator as a valid permission for itself:  
-    
+    ![!image 1](/blog/assets/img/posts/bots-and-admin/image-1.jpg){: loading=lazy }
 
 # Why you shouldn't give Bots or ask from Administrator
 
