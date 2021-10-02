@@ -41,8 +41,14 @@ The bot's security is only as good as the people behind it. A unprotected eval-c
 
 And let's not forget that a developer may not always be a pure-of-heart person. They can at one point have a hate towards others.
 
-The fact is, that you should treat a Bot like a new user you never saw before and that randomly DMs you. Treat it carefully and don't just blindly trust it straight away. Just undoing bans is easier than undoing bans, recreating channels, change the icon and server name back, etc.  
-Administrator causes more harm than good in the long run. It may save you time, but at the cost of possibly getting your server nuked[^2].
+The fact is, that you should treat a Bot like a new user you never saw before and that randomly DMs you. Treat it carefully and don't just blindly trust it straight away.
+
+Or ask yourself this: What is easier for you to do when a bot went rogue?
+
+- Just undoing the mass-bans the bot did.
+- Undoing mass-bans, recreating deletec channels, changing back the server's name and icon, recreating all the roles you had, ...
+
+Administrator causes more harm than good in the long run. It may save you time, but at the cost of possibly getting your server nuked[^2] at the end.
 
 ## Why do people give/ask for Administrator?
 
@@ -54,7 +60,7 @@ Well, this can have different reasons, which I will cover some of here.
 ### Reason 1) Laziness
 By far the most common reason for this. Giving the `Administrator` permission is easy and saves time because you don't have to setup channel-specific permissions.
 
-In todays say and age do we try to save time wherever possible and setting up channel permissions is also no exception from this goal.  
+In todays day and age do we try to save time wherever possible and setting up channel permissions is also no exception from this goal.  
 To be fair is this also to partially blame on Discord's permission systems where a **granting** permission overrides **denying** ones, EVEN if the granting one is **below** the denying one.
 
 People want to spend as less time as possible in setting up permissions which is why they often just give whatever the bot askes for without questioning it.
