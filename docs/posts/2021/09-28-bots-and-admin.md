@@ -83,7 +83,7 @@ Another more unrelated thing is, that they suggest you give the `Mention @everyo
 Another bad role model are large bots.  
 Bots such as Dyno, Rythm or Mee6 often ask for Administrator (Sometimes even with any other permission in existance) in their OAuth2 invite, which is more than questionable.
 
-Those bots encourage lazyness because now you don't have to bother with the permissions as a whole.
+Those bots encourage laziness because now you don't have to bother with the permissions as a whole.
 
 ## What can you do against this?
 You may now ask "But what can/should I do against this?" to which I have some answers.
