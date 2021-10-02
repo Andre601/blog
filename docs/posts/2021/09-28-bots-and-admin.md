@@ -74,7 +74,7 @@ In their Installation Guide[^4] do they mention the following thing in the step 
 !!! quote ""
     Go to the `Roles` tab and create a new role. We've named ours `Bot`. **Add the `Administrator` permission (or permissions listed below) to the new role.**
 
-This has one major flaw, which is the lazyness of people.  
+This has one major flaw, which is the laziness of people.  
 As mentioned before are people lazy and often look for the way of the least effort to continue. And because of this will they often not bother scrolling to the permissions section and instead just give the `Administrator` one.  
 Another more unrelated thing is, that they suggest you give the `Mention @everyone, @here and All Roles` permission which is simply stupid.
 
