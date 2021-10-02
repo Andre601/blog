@@ -89,7 +89,7 @@ Those bots encourage laziness because now you don't have to bother with the perm
 You may now ask "But what can/should I do against this?" to which I have some answers.
 
 ### "Duce Exemplum" (Lead by Example)
-If you're a bot developer, stop asking for Administrator in your bot's invite. If people still give it was it their concious decition and you can't be blamed for their lazyness here.  
+If you're a bot developer, stop asking for Administrator in your bot's invite. If people still give it was it their concious decition and you can't be blamed for their laziness here.  
 If you REALLY want to do something good, force people to actually abandon the Administrator perm aproach by denying command-execution and similar while the bot has this particular permission[^6].
 
 You and your bot should be a role model to everyone. If you say you value safety and security, then lead by example and ask for the right permissions and not just Administrator.
@@ -108,3 +108,5 @@ Thank you for reading.
 
 I hope that by now you understand the possible dangers of the Administrator permission and why you should always think twice instead of blindly giving the permission to everyone and everything.  
 And if you still don't think the perm is that dangerous, ask yourself this: Why would Discord themself mention that this is a dangerous permission to grant, if it isn't in your eyes? If they say it's dangerous, then it sure is!
+
+--8<-- "footnodes.md"
