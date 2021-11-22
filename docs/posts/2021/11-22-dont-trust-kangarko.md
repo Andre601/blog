@@ -15,10 +15,10 @@ description: Reasons as to why Kangarko's claims are just wrong
 # Why you can't believe Kangarko
 
 !!! warning "READ FIRST!"
-    This is an updated version of my original Post [In defense of SpigotMC](../12-20-in-defense-of-spigotmc).  
-    It contains some changes and updated information regarding Kangarko and some of his questionable actions.
+    This is an update to my original Post [In defense of SpigotMC](../12-20-in-defense-of-spigotmc).  
+    It contains some new info regarding Kangarko and why he's still a bad person.
     
-    To not give free advertising are all mentions of his "development courses" (I put it in quotes on purpose) shortened.
+    Just like the original post a year ago does this one not try to mention the "courses" Kangarko offers to not offer free advertisement in any way.
 
 ## A quick recap
 On the 20th of december 2020 (Almost a year ago as of now) was the former Spigot member Kangarko removed from the SpigotMC Forums.  
