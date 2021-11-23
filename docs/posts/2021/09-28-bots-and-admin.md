@@ -46,7 +46,7 @@ The fact is, that you should treat a Bot like a new user you never saw before an
 Or ask yourself this: What is easier for you to do when a bot went rogue?
 
 - Just undoing the mass-bans the bot did.
-- Undoing mass-bans, recreating deletec channels, changing back the server's name and icon, recreating all the roles you had, ...
+- Undoing mass-bans, recreating deleted channels, changing back the server's name and icon, recreating all the roles you had, ...
 
 Administrator causes more harm than good in the long run. It may save you time, but at the cost of possibly getting your server nuked[^2] at the end.
 
@@ -109,4 +109,4 @@ Thank you for reading.
 I hope that by now you understand the possible dangers of the Administrator permission and why you should always think twice instead of blindly giving the permission to everyone and everything.  
 And if you still don't think the perm is that dangerous, ask yourself this: Why would Discord themself mention that this is a dangerous permission to grant, if it isn't in your eyes? If they say it's dangerous, then it sure is!
 
---8<-- "footnodes.md"
+--8<-- "footnotes.md"
