@@ -189,22 +189,16 @@ extra:
       link: 'https://github.com/Andre601'
     - icon: 'fontawesome/solid/home'
       link: 'https://andre601.ch'
-  #
-  # The Manifest setting is provided by MkDocs Material and allows to define, how your web application should behave
-  # when installed on the user's mobile device or desktop.
-  # It should be a simple JSON file.
-  #
-  # Read More:
-  # - https://squidfunk.github.io/mkdocs-material/reference/meta-tags/#adding-a-web-app-manifest
-  #
-  #manifest: manifest.webmanifest
-  #
-  # MkDocs Material adds a setting that allows you to implement a comment system using Disqus.
-  #
-  # Read More:
-  # - https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/
-  #
-  disqus: 'andre-blog'
+  giscus:
+    repo: 'Andre601/blog'
+    repo_id: 'MDEwOlJlcG9zaXRvcnkzMjMxMjM0MjQ='
+    category: 'Comments'
+    category_id: 'DIC_kwDOE0J44M4B_2e-'
+    mapping: 'title'
+    reaction: '1'
+    metadata: '0'
+    theme: 'https://www.andre601.ch/blog/assets/css/style/giscus.css'
+    language: 'en'
 
 
 plugins:
