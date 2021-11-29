@@ -64,17 +64,36 @@
     {{ lang.t("meta.comments") }}
   </h2>
   <div id="giscus-thread"></div>
-  <script src="https://giscus.app/client.js"
-        data-repo="Andre601/blog"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkzMjMxMjM0MjQ="
-        data-category="Comments"
-        data-category-id="DIC_kwDOE0J44M4B_2e-"
-        data-mapping="title"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-theme="https://www.andre601.ch/blog/assets/css/style/giscus.css"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
+  <script>
+    var giscus_config = function() {
+      this.page.url = "{{ page.canonical_url }}"
+      this.page.identifier =
+        "{{ page.canonical_url | replace(config.site_url, '') }}"
+    }
+    
+    if (typeof GISCUS === "undefined") {
+      var script = document.createElement("script")
+      script.async = true
+      script.src = "https://giscus.app/client.js"
+      
+      script.setAttribute("data-repo", "Andre601/blog")
+      script.setAttribute("data-repo-id", "MDEwOlJlcG9zaXRvcnkzMjMxMjM0MjQ=")
+      script.setAttribute("data-category", "Comments")
+      script.setAttribute("data-category-id", "DIC_kwDOE0J44M4B_2e-")
+      script.setAttribute("data-mapping", "title")
+      script.setAttribute("data-reactions-enabled", "1")
+      script.setAttribute("data-emit-metadata", "0")
+      script.setAttribute("data-theme", "https://www.andre601.ch/blog/assets/css/style/giscus.css")
+      script.setAttribute("data-lang", "en")
+      script.setAttribute("crossorigin", "anonymous")
+      
+      document.body.appendChild(script)
+      
+    } else {
+      GISCUS.reset({
+        reload: true,
+        config: giscus_config
+      })
+    }
   </script>
 {% endif %}
