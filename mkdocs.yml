@@ -189,16 +189,7 @@ extra:
       link: 'https://github.com/Andre601'
     - icon: 'fontawesome/solid/home'
       link: 'https://andre601.ch'
-  giscus:
-    repo: 'Andre601/blog'
-    repo_id: 'MDEwOlJlcG9zaXRvcnkzMjMxMjM0MjQ='
-    category: 'Comments'
-    category_id: 'DIC_kwDOE0J44M4B_2e-'
-    mapping: 'title'
-    reaction: '1'
-    metadata: '0'
-    theme: 'https://www.andre601.ch/blog/assets/css/style/giscus.css'
-    language: 'en'
+  giscus: 'Yeah boi'
 
 
 plugins:
