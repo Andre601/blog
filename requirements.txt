@@ -1,5 +1,5 @@
-mkdocs-material=8.1.0
-mkdocs-awesome-pages-plugin=2.6.1
+mkdocs-material==8.1.0
+mkdocs-awesome-pages-plugin==2.6.1
 mkdocs-redirects
 git+https://github.com/g-provost/lightgallery-markdown#egg=lightgallery
 mkdocs-blogging-plugin
