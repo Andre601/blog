@@ -198,7 +198,6 @@ extra:
 plugins:
   - search
   - awesome-pages
-  - pagenav-generator
   - redirects:
       redirect_maps:
         'posts/in-defense-of-spigotmc.md': 'posts/2020/12-20-in-defense-of-spigotmc.md'
