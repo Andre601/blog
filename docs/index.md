@@ -4,7 +4,7 @@
 Welcome to my ~~Ted Talk~~ Blog!  
 On this page can you find random blog-posts I made. I don't really follow a schedule nor a specific format/theme. I write a post and I feel like it.
 
-[To the Posts](posts){: .md-button }
+[:octicons-arrow-right-24: To the Posts](posts){: .md-button }
 
 ## Transparency
 The entirety of this blog is hosted using GitHub Pages and therefore is [Open Source and available][source].  
