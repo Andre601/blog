@@ -7,9 +7,11 @@
     <div class="blog-post-extra">
       <aside class="mdx-author">
         <img alt='{{ page.meta["author"] if "author" in page.meta else "Andre601" }}' src='{{ page.meta["author_url"] if "author_url" in page.meta else "/blog/assets/img/icon.jpg" }}'>
-        <span class="twemoji">
-          <b>{{ page.meta["author"] if "author" in page.meta else "Andre601" }}</b> · {% include "icons/stopwatch-24.svg" %} {{ time }}
-        </span>
+        <b>{{ page.meta["author"] if "author" in page.meta else "Andre601" }} · </b>
+        <div class="twemoji">
+          {% include "icons/calendar.svg" %}
+        </div>
+        {{ time }}
       </aside>
     </div>
     {% if show_tags and "tags" in page.meta %}
