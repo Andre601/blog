@@ -6,10 +6,10 @@
     <h3 class="blog-post-title">{{ title }}</h3>
     <div class="blog-post-extra">
       <aside class="mdx-author">
-        {% if page.meta and page.meta.author is string %}
-        <img alt="Andre601" src="https://avatars.githubusercontent.com/u/11576465">
-        <span><b>{{ page.meta["author"] + " · " if "author" in page.meta else "" }}</b></span>
-        <span>{{ time }}</span>
+        <img alt='{{ page.meta["author"] if "author" in page.meta else "Andre601" }}' src='{{ page.meta["author_url"] if "author_url" in page.meta else "/blog/assets/img/icon.jpg" }}'>
+        <span class="twemoji">
+          <b>{{ page.meta["author"] if "author" in page.meta else "Andre601" }}</b> · {% include "icons/stopwatch-24.svg" %} {{ time }}
+        </span>
       </aside>
     </div>
     {% if show_tags and "tags" in page.meta %}
@@ -20,4 +20,4 @@
   </div>
 </a>
 {{ caller() }}
-{%- endmacro %}}
+{%- endmacro %}

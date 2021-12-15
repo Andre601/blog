@@ -2,6 +2,11 @@
 title: Truth & Lies
 description: Why claims of popular devs might not be the truth.
 
+tags:
+  - spigotmc
+  - paypal
+  - songoda
+  - minecraft_eula
 ---
 
 [^1]:
@@ -21,9 +26,6 @@ description: Why claims of popular devs might not be the truth.
 [^10]: https://www.spigotmc.org/threads/478827/page-2#post-4031719
 [^11]: https://www.spigotmc.org/threads/478827/page-3#post-4031745
 
---8<-- "back.md"
-
-# Truth and Lies
 There have been several posts and claims regarding PayPal where they are "banning the selling of products related to Minecraft" or about SpigotMC making unjustified bans of Developers which isn't true at all, but I'll talk about why in a bit.
 
 ## How did this start?

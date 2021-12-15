@@ -3,14 +3,10 @@ title: Critique versus Hate
 description: When people can't take the critique of someone.
 ---
 
---8<-- "back.md"
-
 [^1]: https://github.com/renovatebot/renovate/discussions/10610
 [^2]: https://docs.renovatebot.com/install-github-app/
 [^3]: https://squidfunk.github.io/mkdocs-material/getting-started/
 [^4]: https://stackoverflow.com/questions/63287292/how-to-combine-multiple-javadoc-into-one-using-gradle
-
-# Critique versus Hate
 
 !!! note "Terminology"
     I will use the term "Product" throughout this post.  

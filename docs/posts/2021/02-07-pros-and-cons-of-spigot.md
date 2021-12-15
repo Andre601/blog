@@ -1,9 +1,11 @@
 ---
 title: The Pros and Cons of SpigotMC
 description: The positives and negatives about SpigotMC.org (The forum)
----
 
---8<-- "back.md"
+tags:
+  - spigot
+  - spigotmc
+---
 
 [^1]: https://www.spigotmc.org
 [^2]: https://bstats.org/global/bukkit
@@ -18,7 +20,6 @@ description: The positives and negatives about SpigotMC.org (The forum)
 [^9]: https://www.spigotmc.org/threads/488104/
 [^10]: https://www.spigotmc.org/threads/420746/
 
-# The Pros and Cons of SpigotMC
 SpigotMC[^1] is a well-known site and software in the Minecraft-Community. Almost 200,000 servers are modded Minecraft Servers from which almost 46% are Spigot (~70,000 server)[^2].
 
 With that said do the Forum and Software have a lot of negative things, that annoys developers, server owners and forum users alike for quite some time now.  

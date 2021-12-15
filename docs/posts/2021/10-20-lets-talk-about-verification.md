@@ -1,15 +1,17 @@
 ---
 title: "Let's talk about your verification system Discord..."
 description: "A long discussion about why Discord's verification system is flawed."
----
 
---8<-- "back.md"
+tags:
+  - discord
+  - discord-bots
+  - bot-verification
+  - verification
+---
 
 [^1]: https://github.com/discord/discord-api-docs/discussions/3971
 [^2]: https://github.com/discord/discord-api-docs/discussions/3731
 [^3]: https://forms.gle/iLwefnoEMPsnkNVW9
-
-# Let's talk about your verification system Discord...
 
 !!! info
     This blog post has been made after my original discussion[^1] has been locked with a weak explanation that questions may be answered in their upcoming Q&A.  

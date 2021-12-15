@@ -1,15 +1,17 @@
 ---
 title: Alternatives for JDA-Utilities
 description: A list of alternatives for JDA-Utilities that also lists pros and cons
----
 
---8<-- "back.md"
+tags:
+  - jda
+  - jda-utilities
+  - jda-utils
+---
 
 [^1]: https://github.com/JDA-Applications/JDA-Utilities
 [^2]: https://github.com/DV8FromTheWorld/JDA
 [^3]: https://discord.gg/jda
 
-# Alternatives for JDA-Utilities
 JDA-Utilities[^1] is a library made for JDA[^2].  
 Unfortunately has the library entered a state of not being updated nor maintained anymore. While core-parts still function fine is the library lacking a lot of features that would make it better in the long run.
 

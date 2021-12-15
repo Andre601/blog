@@ -1,4 +1,5 @@
 title: Posts
 nav:
-- Info: index.md
+- index.md
 - ...
+- Tags: tags.md
