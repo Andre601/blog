@@ -111,6 +111,8 @@ theme:
   #
   favicon: 'assets/img/icon.jpg'
   logo: 'assets/img/icon.jpg'
+  icon:
+    repo: octicons/repo-24
   #
   # Main settings for MkDocs Material's look such as primary and secondary colors,
   # light/dark theme, etc.
@@ -145,7 +147,8 @@ theme:
   features:
     #- navigation.instant # This is an experimental feature.
     - navigation.tabs
-    - navigation.expand
+    - navigation.sections
+    - navigation.indexes
 
 #
 # Uncomment the below option to add your own CSS/SCSS files to extend/alter the display and behaviour of pages.
@@ -195,13 +198,25 @@ extra:
 plugins:
   - search
   - awesome-pages
-  - pagenav-generator
   - redirects:
       redirect_maps:
         'posts/in-defense-of-spigotmc.md': 'posts/2020/12-20-in-defense-of-spigotmc.md'
         'posts/truth-and-lies.md': 'posts/2020/12-24-truth-and-lies.md'
         'posts/pros-and-cons-of-spigot.md': 'posts/2021/02-07-pros-and-cons-of-spigot.md'
         'jda-utils-alternatives.md': 'posts/2021/06-13-jda-utilities-alternatives.md'
+  - blogging:
+      dirs:
+        - posts/2020
+        - posts/2021
+      features:
+        tags:
+          index_page: 'posts/tags.md'
+          insert: top
+      template: 'theme/blog/blog-override.html'
+      theme:
+        name: card
+      locale: de
+      size: 5
 
 #
 # This section allows you to add "extensions" which (obviously) extend the default MkDocs behaviour in multiple

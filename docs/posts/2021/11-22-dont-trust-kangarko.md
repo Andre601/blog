@@ -1,6 +1,11 @@
 ---
 title: Why you can't believe Kangarko
 description: Reasons as to why Kangarko's claims are just wrong
+
+tags:
+  - spigotmc
+  - spigot
+  - kangarko
 ---
 
 [^1]: https://www.spigotmc.org/threads/478408
@@ -9,10 +14,6 @@ description: Reasons as to why Kangarko's claims are just wrong
 [^4]:
     The Review I once made on Spigot, visible on MA until I requested to get it removed.  
     ![!Image 2](/blog/assets/img/posts/in-defense-of-spigotmc/image-2.jpg){: loading=lazy }
-
---8<-- "back.md"
-
-# Why you can't believe Kangarko
 
 !!! warning "READ FIRST!"
     This is an update to my original Post [In defense of SpigotMC](../12-20-in-defense-of-spigotmc).  

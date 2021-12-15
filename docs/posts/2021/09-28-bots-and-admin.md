@@ -1,9 +1,12 @@
 ---
 title: Why you shouldn't give bots Administrator
 description: A detailed explanation about why it is dangerous giving Administrator to bots or asking for it.
----
 
---8<-- "back.md"
+tags:
+  - discord
+  - discord-bots
+  - bots
+---
 
 [^1]: https://www.spigotmc.org/threads/414289/
 [^2]: Nuking refers too the process of "destroying" a server by deleting all channels, changing the server icon and/or name, banning every member possible and/or spamming too.
@@ -13,8 +16,6 @@ description: A detailed explanation about why it is dangerous giving Administrat
 [^6]:
     Here is an example from my own bot which does not allow administrator as a valid permission for itself:  
     ![!image 1](/blog/assets/img/posts/bots-and-admin/image-1.jpg){: loading=lazy }
-
-# Why you shouldn't give Bots or ask for Administrator
 
 !!! info
     This post is originally from SpigotMC[^1] but I decided to make this blog post to also improve some things from the original.

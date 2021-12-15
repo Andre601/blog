@@ -2,6 +2,10 @@
 title: In Defense of SpigotMC.org
 description: Why you shouldn't trust Kangarko
 
+tags:
+  - spigotmc
+  - spigot
+  - kangarko
 ---
 
 [^1]: https://www.spigotmc.org/threads/478408
@@ -15,10 +19,6 @@ description: Why you shouldn't trust Kangarko
 [^5]:
     Image 3: The response to my request for removal of the Review.  
     ![!Image 3](/blog/assets/img/posts/in-defense-of-spigotmc/image-3.jpg){: loading=lazy }
-
---8<-- "back.md"
-
-# In defense of SpigotMC
 
 !!! warning "READ FIRST!"
     This post is not an official post by SpigotMC. I do not claim that I am or was a Staff Member of the Spigot team and also don't claim that this post is endorsed by Spigot.  

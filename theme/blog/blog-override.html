@@ -1,0 +1,23 @@
+{% extends "blog-card-theme.html" %}
+
+{% macro render_blog(title, description, time, url, page) -%}
+<a href="{{ url }}">
+  <div class="blog-override-post">
+    <h3 class="blog-post-title">{{ title }}</h3>
+    <div class="blog-post-extra">
+      <aside class="mdx-author">
+        <img alt='{{ page.meta["author"] if "author" in page.meta else "Andre601" }}' src='{{ page.meta["author_url"] if "author_url" in page.meta else "/blog/assets/img/icon.jpg" }}'>
+        <span class="twemoji">
+          <b>{{ page.meta["author"] if "author" in page.meta else "Andre601" }}</b> · {% include "icons/stopwatch-24.svg" %} {{ time }}
+        </span>
+      </aside>
+    </div>
+    {% if show_tags and "tags" in page.meta %}
+      {% call render_tags(page.meta["tags"], index_url) %}
+      {% endcall %}
+    {% endif %}
+    <p class="blog-post-description">{{ description }}</p>
+  </div>
+</a>
+{{ caller() }}
+{%- endmacro %}

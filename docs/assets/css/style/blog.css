@@ -1,0 +1,15 @@
+.md-typeset .mdx-author {
+    display: flex;
+    font-size: 0.85rem;
+}
+.md-typeset .mdx-author img {
+    height: 2.5rem;
+    border-radius: 100%;
+}
+.md-typeset .mdx-author p:first-child {
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+.md-typeset .mdx-author p > span {
+    display: block;
+}
