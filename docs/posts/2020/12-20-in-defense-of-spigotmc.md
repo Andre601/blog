@@ -1,5 +1,5 @@
 ---
-template: theme/giscus.html
+template: giscus.html
 
 title: In Defense of SpigotMC.org
 description: Why you shouldn't trust Kangarko
