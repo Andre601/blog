@@ -1,4 +1,6 @@
 ---
+template: giscus.html
+
 title: The Pros and Cons of SpigotMC
 description: The positives and negatives about SpigotMC.org (The forum)
 
