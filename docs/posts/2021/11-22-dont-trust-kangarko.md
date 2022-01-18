@@ -1,4 +1,6 @@
 ---
+template: giscus.html
+
 title: Why you can't believe Kangarko
 description: Reasons as to why Kangarko's claims are just wrong
 

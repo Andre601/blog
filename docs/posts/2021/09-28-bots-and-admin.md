@@ -1,4 +1,6 @@
 ---
+template: giscus.html
+
 title: Why you shouldn't give bots Administrator
 description: A detailed explanation about why it is dangerous giving Administrator to bots or asking for it.
 

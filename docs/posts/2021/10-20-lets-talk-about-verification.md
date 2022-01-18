@@ -1,4 +1,6 @@
 ---
+template: giscus.html
+
 title: "Let's talk about your verification system Discord..."
 description: "A long discussion about why Discord's verification system is flawed."
 

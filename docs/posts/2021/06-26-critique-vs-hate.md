@@ -1,6 +1,12 @@
 ---
+template: giscus.html
+
 title: Critique versus Hate
 description: When people can't take the critique of someone.
+
+tags:
+  - misc
+  - feedback
 ---
 
 [^1]: https://github.com/renovatebot/renovate/discussions/10610
