@@ -6,4 +6,4 @@
 This is the repository which hosts the pages you can find on https://andre601.ch/blog.
 
 We use [MkDocs] to turn Markdown files into static HTML pages.  
-You can find all pages within the [docs directory]. Assets like images can be found in [docs/asstes][assets]
+You can find all pages within the [docs directory]. Assets like images can be found in [docs/assets][assets]
