@@ -114,6 +114,7 @@ main {
 
 .gsc-timeline {
   flex-direction: column-reverse;
+  margin-bottom: 8rem;
 }
 
 .gsc-header {
