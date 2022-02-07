@@ -192,7 +192,6 @@ extra:
       link: 'https://github.com/Andre601'
     - icon: 'fontawesome/solid/home'
       link: 'https://andre601.ch'
-  giscus: 'Yeah boi'
 
 
 plugins:
@@ -217,6 +216,15 @@ plugins:
         name: card
       locale: de
       size: 5
+      time_format: '%d.%m.%Y'
+      meta_time_format: '%d.%m.%Y'
+  - git-revision-date-localized:
+      type: timeago
+      timezone: Europe/Zurich
+      exclude:
+        - index.md
+        - posts/index.md
+        - posts/tags.md
 
 #
 # This section allows you to add "extensions" which (obviously) extend the default MkDocs behaviour in multiple

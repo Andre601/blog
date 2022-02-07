@@ -4,6 +4,8 @@ template: giscus.html
 title: In Defense of SpigotMC.org
 description: Why you shouldn't trust Kangarko
 
+date: '20.12.2020'
+
 tags:
   - spigotmc
   - spigot

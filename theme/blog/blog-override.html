@@ -6,12 +6,18 @@
     <h3 class="blog-post-title">{{ title }}</h3>
     <div class="blog-post-extra">
       <aside class="mdx-author">
-        <img alt='{{ page.meta["author"] if "author" in page.meta else "Andre601" }}' src='{{ page.meta["author_url"] if "author_url" in page.meta else "/blog/assets/img/icon.jpg" }}'>
-        <b>{{ page.meta["author"] if "author" in page.meta else "Andre601" }} · </b>
-        <div class="twemoji">
-          {% include "icons/calendar.svg" %}
-        </div>
-        {{ time }}
+        <p>
+          <img alt='{{ page.meta["author"] if "author" in page.meta else "Andre601" }}' src='{{ page.meta["author_url"] if "author_url" in page.meta else "/blog/assets/img/icon.jpg" }}'>
+        </p>
+        <p>
+          <span>
+            <strong>{{ page.meta["author"] if "author" in page.meta else "Andre601" }}</strong> · 
+            <span class="twemoji">
+              {% include "icons/calendar.svg" %}
+            </span>
+            {{ time }}
+          </span>
+        </p>
       </aside>
     </div>
     {% if show_tags and "tags" in page.meta %}

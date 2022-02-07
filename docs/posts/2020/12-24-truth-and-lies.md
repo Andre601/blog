@@ -4,6 +4,8 @@ template: giscus.html
 title: Truth & Lies
 description: Why claims of popular devs might not be the truth.
 
+date: '24.12.2020'
+
 tags:
   - spigotmc
   - paypal

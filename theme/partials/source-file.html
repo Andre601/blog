@@ -1,0 +1,32 @@
+{% import "partials/language.html" as lang with context %}
+
+<hr />
+<div class="md-source-file">
+  <small>
+
+    <!-- mkdocs-git-revision-date-localized-plugin -->
+    {% if page.meta.git_revision_date_localized %}
+      <span class="twemoji">
+        {% include ".icons/octicons/pencil-24.svg" %}
+      </span>
+      {{ lang.t("source.file.date.updated") }}:
+      {{ page.meta.git_revision_date_localized_raw_datetime }} ({{ page.meta.git_site_revision_date_localized }})
+      {% if page.meta.git_creation_date_localized %}
+        <br />
+        <span class="twemoji">
+          {% include ".icons/octicons/checklist-24.svg" %}
+        </span>
+        {{ lang.t("source.file.date.created") }}:
+        {{ page.meta.git_creation_date_localized_raw_datetime }} ({{ page.meta.git_creation_date_localized_raw_timeago }})
+      {% endif %}
+
+    <!-- mkdocs-git-revision-date-plugin -->
+    {% elif page.meta.revision_date %}
+      <span class="twemoji">
+        {% include ".icons/octicons/pencil-24.svg" %}
+      </span>
+      {{ lang.t("source.file.date.updated") }}:
+      {{ page.meta.revision_date }}
+    {% endif %}
+  </small>
+</div>
