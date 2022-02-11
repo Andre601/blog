@@ -7,7 +7,7 @@
     <div class="blog-post-extra">
       <aside class="mdx-author">
         <p>
-          <img alt='{{ page.meta["author"] if "author" in page.meta else "Andre601" }}' src='{{ page.meta["author_url"] if "author_url" in page.meta else "/blog/assets/img/icon.jpg" }}'>
+          <img alt='{{ page.meta["author"] if "author" in page.meta else "Andre601" }}' src='{{ page.meta["author_url"] if "author_url" in page.meta else "{{ base_url }}/blog/assets/img/icon.jpg" }}'>
         </p>
         <p>
           <span>
