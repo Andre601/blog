@@ -32,10 +32,10 @@ Note that this library does NOT have an in-build command handler. You will need 
 
 !!! info "Features"
     - Commands: :fontawesome-solid-check:{ .octicons-true }
-    - Slash-Commands: :fontawesome-solid-times:{ .octicons-false } (Planned)
-    - Event Waiting: :fontawesome-solid-times:{ .octicons-false }
-    - Pagination (Menus): :fontawesome-solid-times:{ .octicons-false }
-    - OAuth2 (Extra scopes): :fontawesome-solid-times:{ .octicons-false }
+    - Slash-Commands: :fontawesome-solid-xmark:{ .octicons-false } (Planned)
+    - Event Waiting: :fontawesome-solid-xmark:{ .octicons-false }
+    - Pagination (Menus): :fontawesome-solid-xmark:{ .octicons-false }
+    - OAuth2 (Extra scopes): :fontawesome-solid-xmark:{ .octicons-false }
 
 ## JDA-Chewtils
 https://github.com/chew/JDA-Chewtils
@@ -59,6 +59,6 @@ Command library that also offers support for Event waiting and other things
     - Slash-Commands: :fontawesome-solid-check:{ .octicons-true }
     - Event Waiting: :fontawesome-solid-check:{ .octicons-true }
     - Pagination (Menus): :fontawesome-solid-check:{ .octicons-true }
-    - OAuth2 (Extra scopes): :fontawesome-solid-times:{ .octicons-false }
+    - OAuth2 (Extra scopes): :fontawesome-solid-xmark:{ .octicons-false }
 
 --8<-- "footnotes.md"
