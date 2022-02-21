@@ -224,6 +224,7 @@ plugins:
       type: custom
       timezone: Europe/Zurich
       locale: en
+      custom_format: '%d. %B %Y'
       exclude:
         - index.md
         - posts/index.md
