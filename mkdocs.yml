@@ -169,7 +169,9 @@ extra_css:
 # Read More:
 # - https://www.mkdocs.org/user-guide/configuration/#extra_javascript
 #
-#extra_javascript:
+extra_javascript:
+- assets/js/timeago.min.js
+- assets/js/timeago_mkdocs_material.js
 
 #
 # Additional settings that themes can use.
@@ -219,8 +221,9 @@ plugins:
       time_format: '%d.%m.%Y'
       meta_time_format: '%d.%m.%Y'
   - git-revision-date-localized:
-      type: timeago
+      type: custom
       timezone: Europe/Zurich
+      locale: en
       exclude:
         - index.md
         - posts/index.md
