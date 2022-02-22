@@ -10,14 +10,14 @@
         {% include ".icons/octicons/pencil-24.svg" %}
       </span>
       {{ lang.t("source.file.date.updated") }}:
-      {{ page.meta.git_revision_date_localized_raw_datetime }} ({{ page.meta.git_revision_date_localized }})
+      {{ page.meta.git_revision_date_localized_raw_custom }} ({{ page.meta.git_revision_date_localized_raw_timeago }})
       {% if page.meta.git_creation_date_localized %}
         <br />
         <span class="twemoji">
           {% include ".icons/octicons/checklist-24.svg" %}
         </span>
         {{ lang.t("source.file.date.created") }}:
-        {{ page.meta.git_creation_date_localized_raw_datetime }} ({{ page.meta.git_creation_date_localized_raw_timeago }})
+        {{ page.meta.git_creation_date_localized_raw_custom }} ({{ page.meta.git_creation_date_localized_raw_timeago }})
       {% endif %}
 
     <!-- mkdocs-git-revision-date-plugin -->
