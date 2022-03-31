@@ -1,6 +1,6 @@
 mkdocs-material==8.2.8
 mkdocs-awesome-pages-plugin==2.7.0
-mkdocs-redirects==1.0.3
+mkdocs-redirects==1.0.4
 mkdocs-blogging-plugin==1.4.0
 mkdocs-git-revision-date-localized-plugin==1.0.1
 git+https://github.com/g-provost/lightgallery-markdown#egg=lightgallery
