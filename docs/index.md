@@ -11,6 +11,11 @@ Random posts I make that don't fit any other section of this page.
 
 [:octicons-arrow-right-24: To the Posts](posts){: .md-button }
 
+### Reviews
+Server reviews I made.
+
+[:octicons-arrow-right-24: To the Reviews](reviews){: .md-button }
+
 ## Transparency
 The entirety of this blog is hosted using GitHub Pages and therefore is [Open Source and available][source].  
 Feel free to PR changes that may improve the site as a whole.
