@@ -1,7 +1,6 @@
 ---
-giscus: ""
-title: Tags
-description: All my articles sorted by tags.
+title: "Tags (Blog Posts)"
+description: "Tags for all my random blog posts."
 ---
 
 # Tags

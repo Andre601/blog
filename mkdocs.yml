@@ -220,6 +220,14 @@ plugins:
       size: 5
       time_format: '%d.%m.%Y'
       meta_time_format: '%d.%m.%Y'
+      categories:
+        - name: reviews
+          dirs:
+            - reviews/2022
+          fatures:
+            tags:
+              index_page: 'reviews/tags.md'
+              insert: top
   - git-revision-date-localized:
       type: custom
       timezone: Europe/Zurich
