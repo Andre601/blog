@@ -213,6 +213,21 @@ plugins:
         tags:
           index_page: 'posts/tags.md'
           insert: top
+      categories:
+        - name: reviews
+          dirs:
+            - reviews/2022
+          fatures:
+            tags:
+              index_page: 'reviews/tags.md'
+              insert: top
+          template: 'theme/blog/blog-override.html'
+          theme:
+            name: card
+          locale: de
+          size: 5
+          time_format: '%d.%m.%Y'
+          meta_time_format: '%d.%m.%Y'
       template: 'theme/blog/blog-override.html'
       theme:
         name: card
@@ -229,6 +244,9 @@ plugins:
         - index.md
         - posts/index.md
         - posts/tags.md
+        - reviews/index.md
+        - reviews/apply.md
+        - reviews/tags.md
 
 #
 # This section allows you to add "extensions" which (obviously) extend the default MkDocs behaviour in multiple
