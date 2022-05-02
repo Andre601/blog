@@ -244,6 +244,9 @@ plugins:
         - index.md
         - posts/index.md
         - posts/tags.md
+        - reviews/index.md
+        - reviews/apply.md
+        - reviews/tags.md
 
 #
 # This section allows you to add "extensions" which (obviously) extend the default MkDocs behaviour in multiple
