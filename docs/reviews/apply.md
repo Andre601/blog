@@ -13,13 +13,13 @@ This page aims to answer it and also gives you an idea of how I may review your 
 Not everyone can apply to have their server reviewed.  
 To be eligable for a server review you need to...
 
-- Have your server listed in the `#share-my-server` channel on the [HelpChat Discord][helpchat]
+- Have your server listed in the `#share-my-server` channel on the [HelpChat Discord][helpchat] when requesting the review
 - Not already have a review on my blog.
 - Not be a cracked/offline-mode server.
 - Is not a whitelisted server. Servers that are "Greylisted" (Require approval to join) are also disqualified.
 - Not use any leaked plugins.
 
-If I notice that your server is violating any of those requirements will I remove the review from my blog page and reject any future requests from you.
+If I notice that your server is violating any of those requirements (excluding the first one) will I remove the review from my blog page and reject any future requests from you.
 
 ## Where to apply
 
