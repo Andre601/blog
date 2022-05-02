@@ -2,7 +2,12 @@
 
 # Blog Page
 Welcome to my ~~Ted Talk~~ Blog!  
-On this page can you find random blog-posts I made. I don't really follow a schedule nor a specific format/theme. I write a post and I feel like it.
+This site will list all my different blog posts I made so far.
+
+## Categories
+
+### Posts
+Random posts I make that don't fit any other section of this page.
 
 [:octicons-arrow-right-24: To the Posts](posts){: .md-button }
 
