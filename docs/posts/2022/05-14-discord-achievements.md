@@ -2,7 +2,7 @@
 template: giscus.html
 
 title: How to obtain all Discord Achievements
-description: An article describing how you can obtain all achievements for Discord's "Party Mode".
+description: An article describing how you can obtain all achievements for Discord's \"Party Mode\".
 
 date: '14.05.2022'
 
