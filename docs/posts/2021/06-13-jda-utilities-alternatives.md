@@ -4,6 +4,8 @@ template: giscus.html
 title: Alternatives for JDA-Utilities
 description: A list of alternatives for JDA-Utilities that also lists pros and cons
 
+date: '13.06.2021'
+
 tags:
   - jda
   - jda-utilities

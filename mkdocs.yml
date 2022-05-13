@@ -209,6 +209,7 @@ plugins:
       dirs:
         - posts/2020
         - posts/2021
+        - posts/2022
       features:
         tags:
           index_page: 'posts/tags.md'

@@ -4,6 +4,8 @@ template: giscus.html
 title: "Let's talk about your verification system Discord..."
 description: "A long discussion about why Discord's verification system is flawed."
 
+date: '20.10.2021'
+
 tags:
   - discord
   - discord-bots

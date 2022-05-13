@@ -4,6 +4,8 @@ template: giscus.html
 title: Critique versus Hate
 description: When people can't take the critique of someone.
 
+date: '26.06.2021'
+
 tags:
   - misc
   - feedback
