@@ -217,7 +217,7 @@ They are for the most party connected to the score.
     <h3>Possible Trivia</h3>
     
     - The score is a reference to the popular game 2048.
-    - The title has actually a type that was later corrected.[^1]
+    - The title has actually a typo that was later corrected.[^1]
 
 [is-this-thing-on]: https://user-images.githubusercontent.com/11576465/168395657-47dd0dde-b5bf-4685-99d4-5d98a2d5562a.png
 [the-it-solution]: https://user-images.githubusercontent.com/11576465/168395708-f03166a6-15d0-41f4-a7fb-5356fabd31d0.png
