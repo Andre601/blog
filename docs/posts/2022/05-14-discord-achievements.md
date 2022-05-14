@@ -219,6 +219,8 @@ They are for the most party connected to the score.
     - The score is a reference to the popular game 2048.
     - The title has actually a typo that was later corrected.[^1]
 
+--8<-- "footnotes.md"
+
 [is-this-thing-on]: https://user-images.githubusercontent.com/11576465/168395657-47dd0dde-b5bf-4685-99d4-5d98a2d5562a.png
 [the-it-solution]: https://user-images.githubusercontent.com/11576465/168395708-f03166a6-15d0-41f4-a7fb-5356fabd31d0.png
 [more]: https://user-images.githubusercontent.com/11576465/168397164-445fd6b4-f624-46fa-bdf3-ae6840ce1931.png
