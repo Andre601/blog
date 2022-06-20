@@ -58,7 +58,7 @@ Those Achievements are fairly easy to obtain and do not require a lot of work or
 
 ??? info "Stuck in the character creator"
     <h3>Image</h3>
-    ![stuck-in-the-character-creator]{ loading="lazy" }
+    ![stuck-in-character-creation]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Change the confetty settings (Any setting should work).
@@ -106,9 +106,6 @@ Those Achievements are fairly easy to obtain and do not require a lot of work or
     <h3>How to get it</h3>
     Reach a x5 Combo.  
     Just send 4 messages with no long pauses in between.
-    
-    <h3>Possible Trivia</h3>
-    
 
 ??? info "Happy Birthday!!"
     <h3>Image</h3>
