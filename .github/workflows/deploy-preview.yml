@@ -7,6 +7,8 @@ on:
       - reopened
       - synchronize
 
+concurrency: "deploy-preview"
+
 jobs:
   deploy-preview:
     name: Create Deploy-Preview
