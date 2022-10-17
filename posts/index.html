@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://www.andre601.ch/blog/posts/">
       
       <link rel="icon" href="../assets/img/icon.jpg">
-      <meta name="generator" content="mkdocs-1.4.0, mkdocs-material-8.5.6">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.6">
     
     
   
@@ -881,6 +881,7 @@ The post can be anything from rants to simple discussions.</p>
 
     .md-typeset .blog-pagination {
         display: inline-block;
+        margin-top: 20px;
     }
 
     .md-typeset .blog-pagination a {
@@ -1526,8 +1527,14 @@ The post can be anything from rants to simple discussions.</p>
 <div class="blog-center ">
     <div class="blog-pagination " id="blog-pagination">
         
-            <a class="page-number" href="#blog-p1">1</a>
+            
+                
+            
+            <a class="page-number" href="">1</a>
         
+            
+                
+            
             <a class="page-number" href="#blog-p2">2</a>
         
     </div>
@@ -1664,13 +1671,15 @@ if (pagination) {
               // This is the destination page
               pages[j].className = pages[j].className.replace(" blog-hidden", "")
             }
-            scrollToTop();
           }
+          scrollToTop();
         }
       });
     }
     links[currentPage].className += " active"
-    links[currentPage].click();
+    if (currentPage > 0) {
+      links[currentPage].click();
+    }
   }
 }
 </script>
