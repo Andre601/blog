@@ -20,13 +20,13 @@ tags:
 
 [ia_blocktypes]: https://itemsadder.devs.beer/plugin-usage/adding-content/item-properties/blocks#type
 
-In this blog post will I try my very best to teach you how to understand the general structure of ItemsAdder and how you can add your own custom Items (Either only by with texture or with custom models).
+In this blog post will I try my very best to teach you how to understand the general structure of ItemsAdder and how you can add your own custom Items (Either only with textures or with custom models).
 
 I want to mention that I will only cover the very basics of how to make items and blocks. I will **not** cover how to add custom durability, effects, sounds, etc. Refer to the ItemsAdder Wiki[^1] for more info.
 
 ## General Structure
 
-First things firs, what is the general structure of ItemsAdder?  
+First things first, what is the general structure of ItemsAdder?  
 All important stuff is handled inside `/plugins/ItemsAdder/`. When opening that folder is it first overwhelming given the amount of folders and files present. For our purposes will only the `data/` folder be of importance to us, so you can discard the other folders and files for now.
 
 When opening the folder you will find two folders in it: `items_packs/` and `resource_pack`
@@ -74,8 +74,8 @@ resource_pack/
  |- index.html
  |- pack.mcmeta
 ```
-If you ever worked with a resource pack before should the structure of `resource_pack` look familiar to use, especially with the `pack.mcmeta` present.  
-This is because this folder basically is the final resource pack structure inside the Zip file, meaning that the structure in it mimics Minecraft's main structure.
+If you ever worked with a resource pack before should the structure of `resource_pack` look familiar to you, especially with the `pack.mcmeta` present.  
+This is because this folder is the final resource pack structure inside the Zip file, meaning that the structure in it mimics Minecraft's main structure.
 
 ## Creating a basic Item (2D Item) { #creating-an-item }
 
@@ -97,7 +97,7 @@ data/
          |- myitem/
 ```
 As you can see do we create new folders called `myitem` inside `items_packs` and `resource_pack/assets/`.  
-The reason why `resource_pack` has it inside the `assets` folder is, that MC is always checking `assets/:namespace/` for textures, models and similar.
+The reason why `resource_pack` has it inside the `assets` folder is, that MC is always checking `assets/:namespace/` for textures, models and similar when any given path is prefixed with a namespace (i.e. `myitem:some/path`).
 
 The next step I usually do is to first add the assets. In our case would it just be a PNG file of the item.  
 In this example am I calling it `dummy.png`.
@@ -163,7 +163,7 @@ Creating a block is for the most part the same as [creating an item](#creating-a
 In this example am I using the same folder structure, with the difference that the PNG files for the block are inside `assets/myitem/textures/block/` and that I'm using multiple ones.
 
 All we need to do now is add some extra stuff to it:  
-```yaml title="dummy_block.yml
+```yaml title="dummy_block.yml"
 info:
   namespace: myitem
 items:
@@ -263,7 +263,7 @@ data/
 ```
 
 Since we just edit an existing item can we open the `dummy_item.yml` file and adjust a few things:  
-```yaml title="dummy_item.yml
+```yaml title="dummy_item.yml"
 info:
   namespace: myitem
 items:
