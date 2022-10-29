@@ -14,8 +14,8 @@ tags:
 
 [^1]: https://itemsadder.devs.beer/
 [^2]:
-    Custom blocks are bound to certain limits. As an example will `REAL_NOTE` blocks not allow transparent textures or open sides that would expose a covered block face, as MC won't render those usually covered, resulting in an X-Ray effect.  
-    `REAL_TRANSPARENT` is a workaround for this case.
+    Custom blocks are bound to certain limitations. As an example can you not have open sites or transparent textures with `REAL_NOTE` or `REAL` blocks. This is due to Minecraft not rendering block faces that are covered by other blocks. And since MC doesn't know that our block isn't covering the full side will this result in an X-Ray effect.  
+    The usage of `REAL_TRANSPARENT` to bypass this effect is recommended. Tho it only allows fully opaque and fully transparent textures. No semi-transparent ones (So no custom coloured glass as an example).
 [^3]: https://blockbench.net
 
 [ia_block_types]: https://itemsadder.devs.beer/plugin-usage/adding-content/item-properties/blocks#type
@@ -287,9 +287,10 @@ items:
       model_path: "item/dummy_model"
 ```
 
-What you may have noticed is, that `generate` is set to `false`. This is important since we want to use our own model file and keeping this option set to true would cause ItemsAdder to still auto-generate and use its own mode file.  
-Additionally have I removed the `textures` option and instead added the `model_path` one. This is due to the model file containing all the texture settings to use, so we don't have to provide them here again.
+What you may have noticed is, that `generate` is set to `false`. This is important since we want to use our own model file and keeping this option set to true would cause ItemsAdder to still auto-generate and use its own model file, resulting in issues.  
+Additionally, have I removed the `textures` option and instead added the `model_path` one. This is required to actually tell ItemsAdder where the model file is located. And since the model file already defines textures is this option no longer needed in the YAML file.
 
-If you've done everything correctly can you now run `/iazip` and the item should use the actual model you set (You may require to clear the cache tho).
+You should now be able to update the resource pack with `/iazip` and get the newly modelled item.  
+If the item is still the old one, clear the cache using the `/iacleancache` command.
 
 --8<-- "footnotes.md"
