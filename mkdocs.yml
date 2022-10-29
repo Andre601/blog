@@ -19,6 +19,8 @@ theme:
   icon:
     repo: octicons/repo-24
   palette:
+    scheme: 'slate'
+    primary: 'grey'
     accent: 'blue'
   features:
     - navigation.tabs
