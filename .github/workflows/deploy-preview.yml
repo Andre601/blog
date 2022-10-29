@@ -36,6 +36,7 @@ jobs:
         name: Checkout Code
         with:
           ref: refs/pull/${{ github.event.pull_request.number }}/merge
+          fetch-depth: '0'
       - uses: actions/setup-python@v4
         name: Setup Python
         with:
