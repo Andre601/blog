@@ -18,7 +18,7 @@ tags:
     `REAL_TRANSPARENT` is a workaround for this case.
 [^3]: https://blockbench.net
 
-[ia_blocktypes]: https://itemsadder.devs.beer/plugin-usage/adding-content/item-properties/blocks#type
+[ia_block_types]: https://itemsadder.devs.beer/plugin-usage/adding-content/item-properties/blocks#type
 
 In this blog post will I try my very best to teach you how to understand the general structure of ItemsAdder and how you can add your own custom Items (Either only with textures or with custom models).
 
@@ -35,7 +35,8 @@ When opening the folder you will find two folders in it: `items_packs/` and `res
 
 This folder contains all the YAML files used to create custom items, blocks, furniture and similar. It's the main place for configuration that doesn't require altering of Model files.
 
-The general structure of this folder is as follows:  
+The general structure of this folder is as follows:
+
 ```
 items_packs/
  |
@@ -50,6 +51,7 @@ items_packs/
      |
      |- ... # Internal stuff used by ItemsAdder itself
 ```
+
 The structure is fairly simple, as its only purpose is to hold the configuration files and nothing more.
 
 ### `resource_pack`
@@ -57,7 +59,8 @@ The structure is fairly simple, as its only purpose is to hold the configuration
 This folder contains all the necessary files to create a valid resource pack to use, including the final `pack.zip` file when using `/iazip`.  
 You'll notice that this folder has a `assets/` folder.
 
-Looking into said folder may reveal a structure similar to this one:  
+Looking into said folder may reveal a structure similar to this one:
+
 ```
 resource_pack/
  |
@@ -74,6 +77,7 @@ resource_pack/
  |- index.html
  |- pack.mcmeta
 ```
+
 If you ever worked with a resource pack before should the structure of `resource_pack` look familiar to you, especially with the `pack.mcmeta` present.  
 This is because this folder is the final resource pack structure inside the Zip file, meaning that the structure in it mimics Minecraft's main structure.
 
@@ -82,7 +86,8 @@ This is because this folder is the final resource pack structure inside the Zip 
 Let's quickly create a new item. It should just be a normal item with a special texture and no real feature.
 
 It's a good idea to first create the necessary folders for the textures and files to use.  
-In my example will I use the name `myitem` as the namespace to use. This means that the folder structures may look like this:  
+In my example will I use the name `myitem` as the namespace to use. This means that the folder structures may look like this:
+
 ```
 data/
  |
@@ -96,6 +101,7 @@ data/
          |
          |- myitem/
 ```
+
 As you can see do we create new folders called `myitem` inside `items_packs` and `resource_pack/assets/`.  
 The reason why `resource_pack` has it inside the `assets` folder is, that MC is always checking `assets/:namespace/` for textures, models and similar when any given path is prefixed with a namespace (i.e. `myitem:some/path`).
 
@@ -103,7 +109,8 @@ The next step I usually do is to first add the assets. In our case would it just
 In this example am I calling it `dummy.png`.
 
 Since it is a texture will we need to add a `textures` folder inside the `assets/myitem/` directory, as MC checks `assets/:namespace/textures/` for any texture file. For better organisation will I also add an extra `item/` folder to it.  
-This means, that the new structure is like this:  
+This means, that the new structure is like this:
+
 ```
 data/
  |
@@ -132,7 +139,8 @@ data/
 Now with this completed is the next step to actually tell ItemsAdder to add it as a new item.  
 To do this, I create a new YAML file inside `items_packs/myitem/`. Any name for the file works, but it should be kept lowercase and not contain any spaces or weird characters.
 
-To keep it simple will I name it `dummy.yml` and fill it with the following:  
+To keep it simple will I name it `dummy.yml` and fill it with the following:
+
 ```yaml title="dummy.yml"
 info:
   namespace: myitem # (1)
@@ -162,7 +170,8 @@ Creating a block is for the most part the same as [creating an item](#creating-a
 
 In this example am I using the same folder structure, with the difference that the PNG files for the block are inside `assets/myitem/textures/block/` and that I'm using multiple ones.
 
-All we need to do now is add some extra stuff to it:  
+All we need to do now is add some extra stuff to it:
+
 ```yaml title="dummy_block.yml"
 info:
   namespace: myitem
@@ -201,8 +210,9 @@ Let's say we want to use a custom model for our `dummy` item.
 In order to do this will we first need to create the actual Model file to use. A recommended software to use for this is Blockbench[^3] as it allows a relatively easy creation of MC block/item models.
 
 To not make this guide too long will I skip the entire model creation process.  
-Just assume we still have the same Texture file in the same directory (`assets/myitem/textures/dummy.png`) and that we create a JSON model file which may look something similar to this:  
-```json5 title="dumy_model.json"
+Just assume we still have the same Texture file in the same directory (`assets/myitem/textures/dummy.png`) and that we create a JSON model file which may look something similar to this:
+
+```jsonc title="dumy_model.json"
 {
   "credit": "Made with Blockbench",
   "textures": {
@@ -217,13 +227,14 @@ Just assume we still have the same Texture file in the same directory (`assets/m
 }
 ```
 
-!!! note "Important"
+!!! warning "Important"
     Model files follow the same structure with textures as MC does, meaning that you need to prefix the texture path with your namespace (in my case `myitem:`) and also provide a path relative to `assets/:namespace/textures/`.  
     Additionally do you **not** have to append a `.png` extension to the paths. MC automatically assumes PNG files being used.
     
     Blockbench should deal with those things by itself, as long as you're using a proper folder structure for the textures.
 
-We would put this file into a new folder called `models`. To add more structure am I adding an extra folder called `item`, so the current structure would look similar to this:  
+We would put this file into a new folder called `models`. To add more structure am I adding an extra folder called `item`, so the current structure would look similar to this:
+
 ```
 data/
  |
@@ -262,7 +273,8 @@ data/
                      |- dummy_west.png
 ```
 
-Since we just edit an existing item can we open the `dummy_item.yml` file and adjust a few things:  
+Since we just edit an existing item can we open the `dummy_item.yml` file and adjust a few things:
+
 ```yaml title="dummy_item.yml"
 info:
   namespace: myitem
@@ -274,7 +286,10 @@ items:
       generate: false
       model_path: "item/dummy_model"
 ```
+
 What you may have noticed is, that `generate` is set to `false`. This is important since we want to use our own model file and keeping this option set to true would cause ItemsAdder to still auto-generate and use its own mode file.  
 Additionally have I removed the `textures` option and instead added the `model_path` one. This is due to the model file containing all the texture settings to use, so we don't have to provide them here again.
 
 If you've done everything correctly can you now run `/iazip` and the item should use the actual model you set (You may require to clear the cache tho).
+
+--8<-- "footnotes.md"
