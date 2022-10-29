@@ -202,7 +202,7 @@ items:
 
 This is already enough to create a custom block to use. All that is left is to update the resource pack (`/iazip`) and obtaining the item (`/iaget myitem:dummy_block`)
 
-### Custom models (i.e. for furniture) { #custom-models }
+## Custom models (i.e. for furniture) { #custom-models }
 
 There are cases where you want to create your own models for an item or a block[^2].  
 Let's say we want to use a custom model for our `dummy` item.
