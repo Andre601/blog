@@ -37,10 +37,12 @@ extra_javascript:
 
 extra:
   social:
-    - icon: 'fontawesome/brands/github'
+    - icon: 'simple/github'
       link: 'https://github.com/Andre601'
     - icon: 'fontawesome/solid/house'
       link: 'https://andre601.ch'
+    - icon: 'simple/mastodon'
+      link: 'https://blobfox.coffee/@andre_601'
 
 
 plugins:
