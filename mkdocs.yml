@@ -37,7 +37,7 @@ extra_javascript:
 
 extra:
   social:
-    - icon: 'solid/github'
+    - icon: 'simple/github'
       link: 'https://github.com/Andre601'
     - icon: 'fontawesome/solid/house'
       link: 'https://andre601.ch'
