@@ -90,23 +90,24 @@ Here are a few personal recommendations for getting you started with Mastodon.
 !!! note "Note"
     Descriptions are taken from the servers themself.
 
-- [`tech.lgbt`](https://tech.lgbt){ target="_blank" }  
-  Manual approval? Yes
-  
-  This Mastodon instance is for tech workers, academics, students, furries, and others interested in tech who are LGBTQIA+ or Allies. All are welcome to join us!
-- [`craftodon.social`](https://craftodon.social){ target="_blank" }  
-  Manual approval? Yes
-  
-  English speaking non-official Minecraft instance. For everyone who plays Minecraft, this instance is a mast!
-- [`blobfox.coffee`](https://blobfox.coffe){ target="_blank" }  
-  Manual approval? Yes
-  
-  A cozy instance for people that like blobfoxes and/or coffee.
-- [`mastodon.social`](https://mastodon.social){ target="_blank" }  
-  Manual approval? No
-  
-  **NOTE:** Registration is currently disabled as of writing this!  
-  The original server operated by the Mastodon gGmbH non-profit
+#### [`tech.lgbt`](https://tech.lgbt){ target="_blank" }  
+
+This Mastodon instance is for tech workers, academics, students, furries, and others interested in tech who are LGBTQIA+ or Allies. All are welcome to join us!
+
+#### [`craftodon.social`](https://craftodon.social){ target="_blank" }  
+
+English speaking non-official Minecraft instance. For everyone who plays Minecraft, this instance is a mast!
+
+#### [`blobfox.coffee`](https://blobfox.coffe){ target="_blank" }
+
+A cozy instance for people that like blobfoxes and/or coffee.
+
+#### [`mastodon.social`](https://mastodon.social){ target="_blank" }
+
+!!! warning "Important!"
+    Registration is currently disabled as of writing this!  
+
+The original server operated by the Mastodon gGmbH non-profit
 
 ### Tools
 
