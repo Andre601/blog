@@ -119,7 +119,4 @@ Here are a few personal recommendations for getting you started with Mastodon.
 - The [glitch-soc](https://github.com/glitch-soc) devs for making their fork of Mastodon with Markdown support.
 - [Ember](https://blobfox.coffee/@Ember) for making blobfox.coffee, which I use.
 
-
-
-
-
+--8<-- "footnotes.md"
