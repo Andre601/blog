@@ -104,8 +104,7 @@ A cozy instance for people that like blobfoxes and/or coffee.
 
 #### [`mastodon.social`](https://mastodon.social){ target="_blank" }
 
-!!! warning "Important!"
-    Registration is currently disabled as of writing this!  
+!!! warning "Registration is currently disabled."
 
 The original server operated by the Mastodon gGmbH non-profit
 
