@@ -79,7 +79,7 @@ What is important to note is, that you can't quote a boosted message. You can on
 
 "Favouriting" a post is the same as "Liking" a tweet on Twitter.
 
-Favouriting a post follows a similar principle as [replying to a post](#replying-to-a-post) in a sense that you can just press the boost icon for posts from the same instance, but need to find the post through search for those from other instances.
+Favouriting a post follows a similar principle as [replying to a post](#replying-to-a-post) in a sense that you can just press the Favourite icon for posts from the same instance, but need to find the post through search for those from other instances.
 
 ## Recommendations
 
