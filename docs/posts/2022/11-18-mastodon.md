@@ -13,7 +13,7 @@ tags:
   - federation
 ---
 
-Elon Musk has bought Twitter for an incredible amount of money and has since started to destroy it left, right and center. Employees got fired or resigned, verified accounts lost their blue checkmark which is now something you can buy for $8 and other things I sure can't think of right now.
+Elon Musk has bought Twitter for an incredible amount of money and has since started to destroy it left, right and center. Employees got fired or resigned, verified accounts lost their iconic blue checkmark and received a grey/transparent "official" badge while the blue checkmark is now something you can buy for $8, and other things I sure can't think of right now.
 
 But all this drama also surfaces some new changes.  
 Mastodon[^1] gained a lot of popularity due to the recent events and is currently having around 1.9 million active users on over 6,000 individual servers. People start to move from Twitter to Mastodon as they see the former dying in the forseeable future or at least becoming a less welcoming place for individuals.
