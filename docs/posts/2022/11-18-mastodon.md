@@ -13,6 +13,9 @@ tags:
   - federation
 ---
 
+[^1]: https://joinmastodon.org
+[^2]: https://instances.social
+
 Elon Musk has bought Twitter for an incredible amount of money and has since started to destroy it left, right and center. Employees got fired or resigned, verified accounts lost their iconic blue checkmark and received a grey/transparent "official" badge while the blue checkmark is now something you can buy for $8, and other things I sure can't think of right now.
 
 But all this drama also surfaces some new changes.  
