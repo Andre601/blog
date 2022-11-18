@@ -66,16 +66,17 @@ You can now reply to it just how you can do it to posts from your instance.
 
 ### Boosting a post
 
-"Boosting" is Mastodon's term for "Re-tweeting", meaning that you re-post the message from someone (or yourself) into your own timeline of posts.  
-Boosting follows the exact same principles as [replying to a post](#replying-to-a-post) which is why I won't explain it further.
+"Boosting" is Mastodon's term for "Re-tweeting", meaning that you re-post the message from someone (or yourself) into your own timeline of posts.
+
+Boosting follows a similar principle as [replying to a post](#replying-to-a-post) in a sense that you can just press the boost icon for posts from the same instance, but need to find the post through search for those from other instances.
 
 What is important to note is, that you can't quote a boosted message. You can only boost it as-is without modifications. This was an intentional decition made by the devs of Mastodon as quoted re-tweets usually end up in a lot of drama or other bad behaviours they didn't want on Mastodon.
 
 ### Adding posts to favourites
 
-"Favouriting" a post is the same as "Liking" a tweet on Twitter.  
-Favouriting follows the exact same principles as [replying to a post](#replying-to-a-post) which is why I won't explain it further.
+"Favouriting" a post is the same as "Liking" a tweet on Twitter.
 
+Favouriting a post follows a similar principle as [replying to a post](#replying-to-a-post) in a sense that you can just press the boost icon for posts from the same instance, but need to find the post through search for those from other instances.
 
 ## Recommendations
 
