@@ -111,12 +111,22 @@ The original server operated by the Mastodon gGmbH non-profit
 
 ### Tools
 
-- [`instances.social`](https://instances.social){ target="_blank" }  
-  A site that helps you finding the instance most fitting for your interests and needs.
-- [`fedifinder.glitch.me`](https://fedifinder.glitch.me){ target="_blank" }  
-  This site helps you finding mastodon accounts of people you follow on Twitter (or that follow you there). Requires authentication with Twitter account.
-- [`crossposter.masto.donte.com.br`](https://crossposter.masto.donte.com.br/){ target="_blank" }  
-  A tool that allows to post, re-post/re-tweet from Mastodon to Twitter and/or vice-versa. Requires authentication with both Twitter and Mastodon account.
+#### [`instances.social`](https://instances.social){ target="_blank" }
+
+A site that helps you finding the instance most fitting for your interests and needs.
+
+#### [`fedifinder.glitch.me`](https://fedifinder.glitch.me){ target="_blank" }
+
+**Requires you to authorize an App for Twitter**
+
+This site helps you finding mastodon accounts of people you follow on Twitter (or that follow you there).
+
+#### [`crossposter.masto.donte.com.br`](https://crossposter.masto.donte.com.br/){ target="_blank" }
+
+**Requires you to authorize an App for Twitter and Mastodon**
+
+A tool allowing you to bridge Mastodon and Twitter.  
+It can forward posts/tweets, boosts/re-tweets and replies from Mastodon to Twitter and/or vice-versa.
 
 ## Special thanks
 
