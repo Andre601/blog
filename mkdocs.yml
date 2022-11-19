@@ -54,6 +54,8 @@ plugins:
         'posts/truth-and-lies.md': 'posts/2020/12-24-truth-and-lies.md'
         'posts/pros-and-cons-of-spigot.md': 'posts/2021/02-07-pros-and-cons-of-spigot.md'
         'jda-utils-alternatives.md': 'posts/2021/06-13-jda-utilities-alternatives.md'
+        'posts/tags.md': 'tags.md'
+        'reviews/tags.md': 'tags.md'
   - blogging:
       dirs:
         - posts/2020
