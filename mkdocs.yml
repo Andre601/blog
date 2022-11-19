@@ -61,16 +61,12 @@ plugins:
         - posts/2022
       features:
         tags:
-          index_page: 'posts/tags.md'
+          index_page: 'tags.md'
           insert: top
       categories:
         - name: reviews
           dirs:
             - reviews/2022
-          fatures:
-            tags:
-              index_page: 'reviews/tags.md'
-              insert: top
           template: 'theme/blog/blog-override.html'
           theme:
             name: card
