@@ -54,6 +54,8 @@ plugins:
         'posts/truth-and-lies.md': 'posts/2020/12-24-truth-and-lies.md'
         'posts/pros-and-cons-of-spigot.md': 'posts/2021/02-07-pros-and-cons-of-spigot.md'
         'jda-utils-alternatives.md': 'posts/2021/06-13-jda-utilities-alternatives.md'
+        'posts/tags.md': 'tags.md'
+        'reviews/tags.md': 'tags.md'
   - blogging:
       dirs:
         - posts/2020
@@ -61,16 +63,12 @@ plugins:
         - posts/2022
       features:
         tags:
-          index_page: 'posts/tags.md'
+          index_page: 'tags.md'
           insert: top
       categories:
         - name: reviews
           dirs:
             - reviews/2022
-          fatures:
-            tags:
-              index_page: 'reviews/tags.md'
-              insert: top
           template: 'theme/blog/blog-override.html'
           theme:
             name: card
