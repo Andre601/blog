@@ -167,6 +167,9 @@ They are for the most party connected to the score.
     
     <h3>How to get it</h3>
     Reach a score of 113
+    
+    <h3>Possible Trivia</h3>
+    Most likely a reference to Disney Pixar's "A-113" easter eggs.
 
 ??? info "Two birds, one stone"
     <h3>Image</h3>
