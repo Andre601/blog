@@ -15,7 +15,7 @@ tags:
 
 [^1]:
     Screenshot of the commercial guidelines (Screenshot by MrDienns)
-    ![!commercial_guidelines](/blog/assets/img/posts/truth-and-lies/commercial_guidelines.jpg)
+    ![commercial_guidelines](../../../assets/img/posts/truth-and-lies/commercial_guidelines.jpg)
 [^2]: https://www.spigotmc.org/threads/477722/
 [^3]: https://www.spigotmc.org/threads/361908/
 [^4]: https://www.change.org/p/md-5-treat-developers-fairly
@@ -23,7 +23,7 @@ tags:
     https://www.spigotmc.org/threads/paypal-has-quietly-banned-game-modification-sales.470925/page-5#post-3993325
     https://twitter.com/MVdWSoftware/status/1277745298819907589?s=19
     https://twitter.com/MVdWSoftware/status/1277747348031057921?s=19
-[^6]: https://www.spigotmc.org/threads/478370/ (See also [My Blog Post](/blog/posts/in-defense-of-spigotmc))
+[^6]: https://www.spigotmc.org/threads/478370/ (See also [My Blog Post](../12-20-in-defense-of-spigotmc))
 [^7]: https://www.spigotmc.org/threads/478408/
 [^8]: https://www.spigotmc.org/threads/384226/page-3#post-3477985
 [^9]: https://www.spigotmc.org/threads/384753/

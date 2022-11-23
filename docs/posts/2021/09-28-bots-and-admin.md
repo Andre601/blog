@@ -19,7 +19,7 @@ tags:
 [^5]: https://docs.discordsrv.com/Installation/#give-the-bot-the-discord-permissions-it-needs-to-run
 [^6]:
     Here is an example from my own bot which does not allow administrator as a valid permission for itself:  
-    ![!image 1](/blog/assets/img/posts/bots-and-admin/image-1.jpg){: loading=lazy }
+    ![!image 1](../../../assets/img/posts/bots-and-admin/image-1.jpg){: loading=lazy }
 
 !!! info
     This post is originally from SpigotMC[^1] but I decided to make this blog post to also improve some things from the original.
