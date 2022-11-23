@@ -95,6 +95,7 @@ plugins:
         - reviews/index.md
         - reviews/apply.md
         - reviews/tags.md
+  - glightbox
 
 markdown_extensions:
   - markdown.extensions.meta:
