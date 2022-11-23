@@ -17,7 +17,7 @@ tags:
 [^3]: https://www.jetbrains.com/company/partners/
 [^4]:
     The Review I once made on Spigot, visible on MA until I requested to get it removed.  
-    ![!Image 2](/blog/assets/img/posts/in-defense-of-spigotmc/image-2.jpg){: loading=lazy }
+    ![!Image 2](../../../assets/img/posts/in-defense-of-spigotmc/image-2.jpg){: loading=lazy }
 
 !!! warning "READ FIRST!"
     This is an update to my original Post [In defense of SpigotMC](../12-20-in-defense-of-spigotmc).  
