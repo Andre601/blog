@@ -3,6 +3,8 @@
 [assets]: https://github.com/Andre601/blog/tree/master/docs/assets
 
 # Blog
+<img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/cozy/built-with/mkdocs_vector.svg" align="right" height="64" alt="mkdocs" title="Blog built with MkDocs">
+
 This is the repository which hosts the pages you can find on https://andre601.ch/blog.
 
 We use [MkDocs] to turn Markdown files into static HTML pages.  
