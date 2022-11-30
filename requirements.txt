@@ -1,4 +1,4 @@
-mkdocs-material==8.5.10
+mkdocs-material==8.5.11
 mkdocs-awesome-pages-plugin==2.8.0
 mkdocs-redirects==1.2.0
 mkdocs-blogging-plugin==2.2.2
