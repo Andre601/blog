@@ -2,7 +2,9 @@
 [docs directory]: https://github.com/Andre601/blog/tree/master/docs
 [assets]: https://github.com/Andre601/blog/tree/master/docs/assets
 
-<img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/cozy/built-with/mkdocs_vector.svg" align="right" height="64" alt="mkdocs" title="Blog built with MkDocs">
+<a href="https://www.mkdocs.org" target="_blank">
+  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@2/assets/cozy/built-with/mkdocs_vector.svg" align="right" height="64" alt="mkdocs" title="Blog built with MkDocs">
+</a>
 
 # Blog
 
