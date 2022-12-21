@@ -516,17 +516,12 @@ All important stuff is handled inside <code>/plugins/ItemsAdder/</code>. When op
 <p>This folder contains all the YAML files used to create custom items, blocks, furniture and similar. It's the main place for configuration that doesn't require altering of Model files.</p>
 <p>The general structure of this folder is as follows:</p>
 <div class="highlight"><pre><span></span><code>items_packs/
- |
- |- :namespace # This can be any name
- |   |
- |   |- some_file.yml
- |   |- folder/ # additional folders are allowed
- |       |
- |       |- other_file.yml
- |
- |- z_iainternal/
-     |
-     |- ... # Internal stuff used by ItemsAdder itself
+├── :namespace/ # This can be any name
+│   ├── some_file.yml
+│   └── folder/
+│       └── other_file.yml
+└── z_iainternal/
+    └── ... # Internal stuff used by Itemsadder
 </code></pre></div>
 <p>The structure is fairly simple, as its only purpose is to hold the configuration files and nothing more.</p>
 <h3 id="resource_pack"><code>resource_pack</code><a class="headerlink" href="#resource_pack" title="Permanent link">¶</a></h3>
@@ -534,19 +529,13 @@ All important stuff is handled inside <code>/plugins/ItemsAdder/</code>. When op
 You'll notice that this folder has a <code>assets/</code> folder.</p>
 <p>Looking into said folder may reveal a structure similar to this one:</p>
 <div class="highlight"><pre><span></span><code>resource_pack/
- |
- |- assets/
- |   |
- |   |- minecraft/
- |   |   |
- |   |   |- ... # This contains Minecraft-related files
- |   |
- |   |- z_iainternal/
- |       |
- |       |- ... # Internal stuff used by ItemsAdder itself
- |
- |- index.html
- |- pack.mcmeta
+├── assets/
+│   ├── minecraft/
+│   │   └── ... # This contains Minecraft-related assets
+│   └── z_iainternal/
+│       └── ... # Internal assets used by ItemsAdder
+├── index.html
+└── pack.mcmeta
 </code></pre></div>
 <p>If you ever worked with a resource pack before should the structure of <code>resource_pack</code> look familiar to you, especially with the <code>pack.mcmeta</code> present.<br/>
 This is because this folder is the final resource pack structure inside the Zip file, meaning that the structure in it mimics Minecraft's main structure.</p>
@@ -555,16 +544,11 @@ This is because this folder is the final resource pack structure inside the Zip 
 <p>It's a good idea to first create the necessary folders for the textures and files to use.<br/>
 In my example will I use the name <code>myitem</code> as the namespace to use. This means that the folder structures may look like this:</p>
 <div class="highlight"><pre><span></span><code>data/
- |
- |- items_packs/
- |   |
- |   |- myitem/
- |
- |- resource_pack/
-     |
-     |- assets/
-         |
-         |- myitem/
+├── items_packs/
+│   └── myitem/
+└── resource_pack/
+    └── assets/
+        └── myitem/
 </code></pre></div>
 <p>As you can see do we create new folders called <code>myitem</code> inside <code>items_packs</code> and <code>resource_pack/assets/</code>.<br/>
 The reason why <code>resource_pack</code> has it inside the <code>assets</code> folder is, that MC is always checking <code>assets/:namespace/</code> for textures, models and similar when any given path is prefixed with a namespace (i.e. <code>myitem:some/path</code>).</p>
@@ -573,22 +557,14 @@ In this example am I calling it <code>dummy.png</code>.</p>
 <p>Since it is a texture will we need to add a <code>textures</code> folder inside the <code>assets/myitem/</code> directory, as MC checks <code>assets/:namespace/textures/</code> for any texture file. For better organisation will I also add an extra <code>item/</code> folder to it.<br/>
 This means, that the new structure is like this:</p>
 <div class="highlight"><pre><span></span><code>data/
- |
- |- items_packs/
- |   |
- |   |- myitem/
- |
- |- resource_pack/
-     |
-     |- assets/
-         |
-         |- myitem/
-             |
-             |- textures/
-                 |
-                 |- item/
-                     |
-                     |- dummy.png
+├── items_packs/
+│   └── myitem/
+└── resource_pack/
+    └── assets/
+        └── myitem/
+            └── textures/
+                └── item/
+                    └── dummy.png
 </code></pre></div>
 <div class="admonition tip">
 <p class="admonition-title">Pro-tips</p>
@@ -680,40 +656,26 @@ Additionally do you <strong>not</strong> have to append a <code>.png</code> exte
 </div>
 <p>We would put this file into a new folder called <code>models</code>. To add more structure am I adding an extra folder called <code>item</code>, so the current structure would look similar to this:</p>
 <div class="highlight"><pre><span></span><code>data/
- |
- |- items_packs/
- |   |
- |   |- myitem/
- |       |
- |       |- dummy_item.yml
- |       |- dummy_block.yml
- |
- |- resource_pack/
-     |
-     |- assets/
-         |
-         |- myitem/
-             |
-             |- models/ # Newly added folder
-             |   |
-             |   |- item/
-             |       |
-             |       |- dummy_model.json
-             |
-             |- textures/
-                 |
-                 |- item/
-                 |   |
-                 |   |- dummy.png
-                 |
-                 |- block/
-                     |
-                     |- dummy_down.png
-                     |- dummy_east.png
-                     |- dummy_north.png
-                     |- dummy_south.png
-                     |- dummy_up.png
-                     |- dummy_west.png
+├── items_packs/
+│   └── myitem/
+│       ├── dummy_item.yml
+│       └── dummy_block.yml
+└── resource_pack/
+    └── assets/
+        └── myitem/
+            ├── models/
+            │   └── item/
+            │       └── dummy_model.json
+            └── textures/
+                ├── item/
+                │   └── dummy.png
+                └── block/
+                    ├── dummy_down.png
+                    ├── dummy_east.png
+                    ├── dummy_north.png
+                    ├── dummy_south.png
+                    ├── dummy_up.png
+                    └── dummy_west.png
 </code></pre></div>
 <p>Since we just edit an existing item can we open the <code>dummy_item.yml</code> file and adjust a few things:</p>
 <div class="highlight"><span class="filename">dummy_item.yml</span><pre><span></span><code><span class="nt">info</span><span class="p">:</span><span class="w"></span>
@@ -757,7 +719,7 @@ The usage of <code>REAL_TRANSPARENT</code> to bypass this effect is recommended.
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.263 2.177a1.75 1.75 0 0 1 2.474 0l2.586 2.586a1.75 1.75 0 0 1 0 2.474L19.53 10.03l-.012.013L8.69 20.378a1.75 1.75 0 0 1-.699.409l-5.523 1.68a.75.75 0 0 1-.935-.935l1.673-5.5a1.75 1.75 0 0 1 .466-.756L14.476 4.963l2.787-2.786zm-2.275 4.371-10.28 9.813a.25.25 0 0 0-.067.108l-1.264 4.154 4.177-1.271a.25.25 0 0 0 .1-.059l10.273-9.806-2.94-2.939zM19 8.44l2.263-2.262a.25.25 0 0 0 0-.354l-2.586-2.586a.25.25 0 0 0-.354 0L16.061 5.5 19 8.44z" fill-rule="evenodd"></path></svg>
 </span>
       Last update:
-      21. November 2022 (<span class="timeago" datetime="2022-11-21T23:02:49+01:00" locale="en"></span>)
+      21. December 2022 (<span class="timeago" datetime="2022-12-21T15:21:21+01:00" locale="en"></span>)
       
 
     <!-- mkdocs-git-revision-date-plugin -->
