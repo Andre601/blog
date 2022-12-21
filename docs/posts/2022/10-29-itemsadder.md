@@ -41,17 +41,12 @@ The general structure of this folder is as follows:
 
 ```
 items_packs/
- |
- |- :namespace # This can be any name
- |   |
- |   |- some_file.yml
- |   |- folder/ # additional folders are allowed
- |       |
- |       |- other_file.yml
- |
- |- z_iainternal/
-     |
-     |- ... # Internal stuff used by ItemsAdder itself
+├── :namespace/ # This can be any name
+│   ├── some_file.yml
+│   └── folder/
+│       └── other_file.yml
+└── z_iainternal/
+    └── ... # Internal stuff used by Itemsadder
 ```
 
 The structure is fairly simple, as its only purpose is to hold the configuration files and nothing more.
@@ -65,19 +60,13 @@ Looking into said folder may reveal a structure similar to this one:
 
 ```
 resource_pack/
- |
- |- assets/
- |   |
- |   |- minecraft/
- |   |   |
- |   |   |- ... # This contains Minecraft-related files
- |   |
- |   |- z_iainternal/
- |       |
- |       |- ... # Internal stuff used by ItemsAdder itself
- |
- |- index.html
- |- pack.mcmeta
+├── assets/
+│   ├── minecraft/
+│   │   └── ... # This contains Minecraft-related assets
+│   └── z_iainternal/
+│       └── ... # Internal assets used by ItemsAdder
+├── index.html
+└── pack.mcmeta
 ```
 
 If you ever worked with a resource pack before should the structure of `resource_pack` look familiar to you, especially with the `pack.mcmeta` present.  
@@ -92,16 +81,11 @@ In my example will I use the name `myitem` as the namespace to use. This means t
 
 ```
 data/
- |
- |- items_packs/
- |   |
- |   |- myitem/
- |
- |- resource_pack/
-     |
-     |- assets/
-         |
-         |- myitem/
+├── items_packs/
+│   └── myitem/
+└── resource_pack/
+    └── assets/
+        └── myitem/
 ```
 
 As you can see do we create new folders called `myitem` inside `items_packs` and `resource_pack/assets/`.  
@@ -115,22 +99,14 @@ This means, that the new structure is like this:
 
 ```
 data/
- |
- |- items_packs/
- |   |
- |   |- myitem/
- |
- |- resource_pack/
-     |
-     |- assets/
-         |
-         |- myitem/
-             |
-             |- textures/
-                 |
-                 |- item/
-                     |
-                     |- dummy.png
+├── items_packs/
+│   └── myitem/
+└── resource_pack/
+    └── assets/
+        └── myitem/
+            └── textures/
+                └── item/
+                    └── dummy.png
 ```
 
 !!! tip "Pro-tips"
@@ -239,40 +215,26 @@ We would put this file into a new folder called `models`. To add more structure 
 
 ```
 data/
- |
- |- items_packs/
- |   |
- |   |- myitem/
- |       |
- |       |- dummy_item.yml
- |       |- dummy_block.yml
- |
- |- resource_pack/
-     |
-     |- assets/
-         |
-         |- myitem/
-             |
-             |- models/ # Newly added folder
-             |   |
-             |   |- item/
-             |       |
-             |       |- dummy_model.json
-             |
-             |- textures/
-                 |
-                 |- item/
-                 |   |
-                 |   |- dummy.png
-                 |
-                 |- block/
-                     |
-                     |- dummy_down.png
-                     |- dummy_east.png
-                     |- dummy_north.png
-                     |- dummy_south.png
-                     |- dummy_up.png
-                     |- dummy_west.png
+├── items_packs/
+│   └── myitem/
+│       ├── dummy_item.yml
+│       └── dummy_block.yml
+└── resource_pack/
+    └── assets/
+        └── myitem/
+            ├── models/
+            │   └── item/
+            │       └── dummy_model.json
+            └── textures/
+                ├── item/
+                │   └── dummy.png
+                └── block/
+                    ├── dummy_down.png
+                    ├── dummy_east.png
+                    ├── dummy_north.png
+                    ├── dummy_south.png
+                    ├── dummy_up.png
+                    └── dummy_west.png
 ```
 
 Since we just edit an existing item can we open the `dummy_item.yml` file and adjust a few things:
