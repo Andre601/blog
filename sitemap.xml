@@ -2,92 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.andre601.ch/blog/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/tags/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2020/12-20-in-defense-of-spigotmc/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2020/12-24-truth-and-lies/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2021/02-07-pros-and-cons-of-spigot/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2021/06-13-jda-utilities-alternatives/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2021/06-26-critique-vs-hate/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2021/09-28-bots-and-admin/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2021/10-20-lets-talk-about-verification/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2021/11-22-dont-trust-kangarko/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2022/05-14-discord-achievements/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2022/10-29-itemsadder/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2022/11-18-mastodon/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/posts/2022/11-21-itemsadder-3.3.0/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.andre601.ch/blog/posts/2022/12-31-year-2022/</loc>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/reviews/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/reviews/apply/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.andre601.ch/blog/reviews/2022/05-02-server-reviews/</loc>
-         <lastmod>2022-12-21</lastmod>
+         <lastmod>2022-12-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
