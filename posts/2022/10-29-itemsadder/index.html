@@ -581,16 +581,16 @@ This means, that the new structure is like this:</p>
 <p>Now with this completed is the next step to actually tell ItemsAdder to add it as a new item.<br/>
 To do this, I create a new YAML file inside <code>items_packs/myitem/</code>. Any name for the file works, but it should be kept lowercase and not contain any spaces or weird characters.</p>
 <p>To keep it simple will I name it <code>dummy.yml</code> and fill it with the following:</p>
-<div class="highlight"><span class="filename">dummy.yml</span><pre><span></span><code><span class="nt">info</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myitem</span><span class="w"> </span><span class="c1"># (1)</span><span class="w"></span>
-<span class="nt">items</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">dummy</span><span class="p">:</span><span class="w"> </span><span class="c1"># (2)</span><span class="w"></span>
-<span class="w">    </span><span class="nt">display_name</span><span class="p">:</span><span class="w"> </span><span class="s">"Dummy</span><span class="nv"> </span><span class="s">Item"</span><span class="w"> </span><span class="c1"># (3)</span><span class="w"></span>
-<span class="w">    </span><span class="nt">resource</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">material</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PAPER</span><span class="w"> </span><span class="c1"># (4)</span><span class="w"></span>
-<span class="w">      </span><span class="nt">generate</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w"> </span><span class="c1"># (5)</span><span class="w"></span>
-<span class="w">      </span><span class="nt">textures</span><span class="p">:</span><span class="w"> </span><span class="c1"># (6)</span><span class="w"></span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'item/dummy.png'</span><span class="w"></span>
+<div class="highlight"><span class="filename">dummy.yml</span><pre><span></span><code><span class="nt">info</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myitem</span><span class="w"> </span><span class="c1"># (1)</span>
+<span class="nt">items</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">dummy</span><span class="p">:</span><span class="w"> </span><span class="c1"># (2)</span>
+<span class="w">    </span><span class="nt">display_name</span><span class="p">:</span><span class="w"> </span><span class="s">"Dummy</span><span class="nv"> </span><span class="s">Item"</span><span class="w"> </span><span class="c1"># (3)</span>
+<span class="w">    </span><span class="nt">resource</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">material</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PAPER</span><span class="w"> </span><span class="c1"># (4)</span>
+<span class="w">      </span><span class="nt">generate</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w"> </span><span class="c1"># (5)</span>
+<span class="w">      </span><span class="nt">textures</span><span class="p">:</span><span class="w"> </span><span class="c1"># (6)</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'item/dummy.png'</span>
 </code></pre></div>
 <ol>
 <li>This is used as the custom namespace for ItemsAdder commands such as <code>/iaget</code> but also other things</li>
@@ -606,25 +606,25 @@ After saving the changes can I now run <code>/iazip</code> to update the resourc
 <p>Creating a block is for the most part the same as <a href="#creating-an-item">creating an item</a> so please read that part first.</p>
 <p>In this example am I using the same folder structure, with the difference that the PNG files for the block are inside <code>assets/myitem/textures/block/</code> and that I'm using multiple ones.</p>
 <p>All we need to do now is add some extra stuff to it:</p>
-<div class="highlight"><span class="filename">dummy_block.yml</span><pre><span></span><code><span class="nt">info</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myitem</span><span class="w"></span>
-<span class="nt">items</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">dummy_block</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="nt">display_name</span><span class="p">:</span><span class="w"> </span><span class="s">"Dummy</span><span class="nv"> </span><span class="s">Block"</span><span class="w"></span>
-<span class="w">    </span><span class="nt">resource</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">material</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PAPER</span><span class="w"> </span><span class="c1"># (1)</span><span class="w"></span>
-<span class="w">      </span><span class="nt">generate</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w"></span>
-<span class="w">      </span><span class="nt">textures</span><span class="p">:</span><span class="w"> </span><span class="c1"># (2)</span><span class="w"></span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_down.png'</span><span class="w"></span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_east.png'</span><span class="w"></span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_north.png'</span><span class="w"></span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_south.png'</span><span class="w"></span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_up.png'</span><span class="w"></span>
-<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_west.png'</span><span class="w"></span>
-<span class="w">    </span><span class="nt">specific_properties</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">block</span><span class="p">:</span><span class="w"> </span><span class="c1"># (3)</span><span class="w"></span>
-<span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">REAL_NOTE</span><span class="w"> </span><span class="c1"># (4)</span><span class="w"></span>
-<span class="w">        </span><span class="nt">break_particle</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ITEM</span><span class="w"> </span><span class="c1"># (5)</span><span class="w"></span>
+<div class="highlight"><span class="filename">dummy_block.yml</span><pre><span></span><code><span class="nt">info</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myitem</span>
+<span class="nt">items</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">dummy_block</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">display_name</span><span class="p">:</span><span class="w"> </span><span class="s">"Dummy</span><span class="nv"> </span><span class="s">Block"</span>
+<span class="w">    </span><span class="nt">resource</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">material</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PAPER</span><span class="w"> </span><span class="c1"># (1)</span>
+<span class="w">      </span><span class="nt">generate</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
+<span class="w">      </span><span class="nt">textures</span><span class="p">:</span><span class="w"> </span><span class="c1"># (2)</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_down.png'</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_east.png'</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_north.png'</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_south.png'</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_up.png'</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">'block/dummy_west.png'</span>
+<span class="w">    </span><span class="nt">specific_properties</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">block</span><span class="p">:</span><span class="w"> </span><span class="c1"># (3)</span>
+<span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">REAL_NOTE</span><span class="w"> </span><span class="c1"># (4)</span>
+<span class="w">        </span><span class="nt">break_particle</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ITEM</span><span class="w"> </span><span class="c1"># (5)</span>
 </code></pre></div>
 <ol>
 <li>It's recommended to use an item and not a block here, to avoid glitchy placement behaviour. The item will look like a block in the inventory.</li>
@@ -683,15 +683,15 @@ Additionally do you <strong>not</strong> have to append a <code>.png</code> exte
                     └── dummy_west.png
 </code></pre></div>
 <p>Since we just edit an existing item can we open the <code>dummy_item.yml</code> file and adjust a few things:</p>
-<div class="highlight"><span class="filename">dummy_item.yml</span><pre><span></span><code><span class="nt">info</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myitem</span><span class="w"></span>
-<span class="nt">items</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="nt">dummy</span><span class="p">:</span><span class="w"></span>
-<span class="w">    </span><span class="nt">display_name</span><span class="p">:</span><span class="w"> </span><span class="s">"Dummy</span><span class="nv"> </span><span class="s">Item"</span><span class="w"></span>
-<span class="w">    </span><span class="nt">resource</span><span class="p">:</span><span class="w"></span>
-<span class="w">      </span><span class="nt">material</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PAPER</span><span class="w"></span>
-<span class="w">      </span><span class="nt">generate</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span><span class="w"></span>
-<span class="w">      </span><span class="nt">model_path</span><span class="p">:</span><span class="w"> </span><span class="s">"item/dummy_model"</span><span class="w"></span>
+<div class="highlight"><span class="filename">dummy_item.yml</span><pre><span></span><code><span class="nt">info</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">myitem</span>
+<span class="nt">items</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">dummy</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">display_name</span><span class="p">:</span><span class="w"> </span><span class="s">"Dummy</span><span class="nv"> </span><span class="s">Item"</span>
+<span class="w">    </span><span class="nt">resource</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">material</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">PAPER</span>
+<span class="w">      </span><span class="nt">generate</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
+<span class="w">      </span><span class="nt">model_path</span><span class="p">:</span><span class="w"> </span><span class="s">"item/dummy_model"</span>
 </code></pre></div>
 <p>What you may have noticed is, that <code>generate</code> is set to <code>false</code>. This is important since we want to use our own model file and keeping this option set to true would cause ItemsAdder to still auto-generate and use its own model file, resulting in issues.<br/>
 Additionally, have I removed the <code>textures</code> option and instead added the <code>model_path</code> one. This is required to actually tell ItemsAdder where the model file is located. And since the model file already defines textures is this option no longer needed in the YAML file.</p>
