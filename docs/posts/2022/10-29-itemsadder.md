@@ -1,13 +1,21 @@
 ---
-template: giscus.html
-
 title: Understand and create custom ItemsAdder Items
 description: "A detailed guide on understanding how to create custom items for the plugin ItemsAdder."
 
+excerpt: In this blog post will I try my very best to teach you how to understand the general structure of ItemsAdder and how you can add your own custom Items (Either only with textures or with custom models).
+
+date: 2022-10-28
+
+authors:
+  - andre601
+
+Categories:
+  - Guide
+
 tags:
-  - minecraft
-  - resource-packs
-  - itemsadder
+  - Minecraft
+  - ResourcePack
+  - ItemsAdder
 ---
 
 [^1]: https://itemsadder.devs.beer/
@@ -20,7 +28,7 @@ tags:
 
 !!! warning "Important!"
     The folder structure of ItemsAdder has changed in v3.3.0!  
-    Please see [this blog post](../11-21-itemsadder-3.3.0) for info on what has changed.
+    Please see [this blog post](../what-is-new-in-itemsadder-v330/) for info on what has changed.
 
 In this blog post will I try my very best to teach you how to understand the general structure of ItemsAdder and how you can add your own custom Items (Either only with textures or with custom models).
 

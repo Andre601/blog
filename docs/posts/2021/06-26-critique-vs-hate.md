@@ -1,14 +1,18 @@
 ---
-template: giscus.html
-
 title: Critique versus Hate
 description: When people can't take the critique of someone.
 
-date: '26.06.2021'
+excerpt: |-
+  Since several years now am I a part of GitHub but also other places all around software.  
+  And many times do I get attacked for simply providing some form of critique towards something, because it's seen as hate.
 
-tags:
-  - misc
-  - feedback
+date: 2021-06-26
+
+authors:
+  - andre601
+
+categories:
+  - Critique
 ---
 
 [^1]: https://github.com/renovatebot/renovate/discussions/10610

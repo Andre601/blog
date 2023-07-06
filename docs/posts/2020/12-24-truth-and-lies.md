@@ -1,21 +1,26 @@
 ---
-template: giscus.html
-
 title: Truth & Lies
 description: Why claims of popular devs might not be the truth.
 
-date: '24.12.2020'
+date: 2020-12-24
+
+authors:
+  - andre601
+
+categories:
+  - Minecraft
 
 tags:
-  - spigotmc
-  - paypal
-  - songoda
-  - minecraft_eula
+  - SpigotMC
+  - PayPal
+  - Songoda
+  - Minecraft
+  - MinecraftEula
 ---
 
 [^1]:
     Screenshot of the commercial guidelines (Screenshot by MrDienns)
-    ![commercial_guidelines](../../../assets/img/posts/truth-and-lies/commercial_guidelines.jpg)
+    ![commercial_guidelines](../../assets/img/posts/truth-and-lies/commercial_guidelines.jpg)
 [^2]: https://www.spigotmc.org/threads/477722/
 [^3]: https://www.spigotmc.org/threads/361908/
 [^4]: https://www.change.org/p/md-5-treat-developers-fairly
@@ -23,7 +28,7 @@ tags:
     https://www.spigotmc.org/threads/paypal-has-quietly-banned-game-modification-sales.470925/page-5#post-3993325
     https://twitter.com/MVdWSoftware/status/1277745298819907589?s=19
     https://twitter.com/MVdWSoftware/status/1277747348031057921?s=19
-[^6]: https://www.spigotmc.org/threads/478370/ (See also [My Blog Post](../12-20-in-defense-of-spigotmc))
+[^6]: https://www.spigotmc.org/threads/478370/ (See also [My Blog Post](../in-defense-of-spigotmc))
 [^7]: https://www.spigotmc.org/threads/478408/
 [^8]: https://www.spigotmc.org/threads/384226/page-3#post-3477985
 [^9]: https://www.spigotmc.org/threads/384753/
@@ -31,6 +36,7 @@ tags:
 [^11]: https://www.spigotmc.org/threads/478827/page-3#post-4031745
 
 There have been several posts and claims regarding PayPal where they are "banning the selling of products related to Minecraft" or about SpigotMC making unjustified bans of Developers which isn't true at all, but I'll talk about why in a bit.
+<!-- more -->
 
 ## How did this start?
 This started (or at least became more popular) when Songoda, a group of plugin developers under Brianna, the owner of Songoda, has been banned by PayPal. They announced this on their Discord and made the claim there, which caused an outrage from fans but also some developers as they now feared to lose a possible income if not even their PayPal account.  

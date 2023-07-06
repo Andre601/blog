@@ -1,15 +1,22 @@
 ---
-template: giscus.html
-
 title: Why you can't believe Kangarko
 description: Reasons as to why Kangarko's claims are just wrong
 
-date: '22.11.2021'
+excerpt: |-
+  On the 20th of december 2020 (Almost a year ago as of now) was the former Spigot member Kangarko removed from the SpigotMC Forums.  
+  The reasons were not publicly stated at first, but after he tried to blame SpigotMC on being at fault here did MD_5 make an announcement, clarifying the actual reasons and the current situation. The reason he stated in that post was repeated violations of the forum rules, primarely abuse of the resource's update feature for promotional actions (i.e. advertisements).
+
+date: 2021-11-22
+
+authors:
+  - andre601
+
+categories:
+  - Minecraft
 
 tags:
-  - spigotmc
-  - spigot
-  - kangarko
+  - SpigotMC
+  - Kangarko
 ---
 
 [^1]: https://www.spigotmc.org/threads/478408
@@ -17,10 +24,10 @@ tags:
 [^3]: https://www.jetbrains.com/company/partners/
 [^4]:
     The Review I once made on Spigot, visible on MA until I requested to get it removed.  
-    ![!Image 2](../../../assets/img/posts/in-defense-of-spigotmc/image-2.jpg){: loading=lazy }
+    ![!Image 2](../../assets/img/posts/in-defense-of-spigotmc/image-2.jpg){: loading=lazy }
 
 !!! warning "READ FIRST!"
-    This is an update to my original Post [In defense of SpigotMC](../12-20-in-defense-of-spigotmc).  
+    This is an update to my original Post [In defense of SpigotMC](../../2020/in-defense-of-spigotmc).  
     It contains some new info regarding Kangarko and why he's still a bad person.
     
     Just like the original post a year ago does this one not try to mention the "courses" Kangarko offers to not offer free advertisement in any way.

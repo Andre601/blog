@@ -1,28 +1,33 @@
 ---
-template: giscus.html
-
-title: In Defense of SpigotMC.org
+title: In Defense of SpigotMC
 description: Why you shouldn't trust Kangarko
 
-date: '20.12.2020'
+excerpt: Yesterday (20th December 2020) was something happening. The former Spigot Member Kangarko has been banned for the continued breaking of the forum rules, most noticably advertising in places like plugin updates.
+
+date: 2020-12-20
+
+authors:
+  - andre601
+
+categories:
+  - Minecraft
 
 tags:
-  - spigotmc
-  - spigot
-  - kangarko
+  - SpigotMC
+  - Kangarko
 ---
 
 [^1]: https://www.spigotmc.org/threads/478408
 [^2]: https://www.spigotmc.org/threads/82298/page-159#post-3129586
 [^3]:
     Image 1: Mails from Kangarko (Image by Aj3douglas).  
-    ![!Image 1](../../../assets/img/posts/in-defense-of-spigotmc/image-1.jpg){: loading=lazy }
+    ![!Image 1](../../assets/img/posts/in-defense-of-spigotmc/image-1.jpg){: loading=lazy }
 [^4]:
     Image 2: The Review I once made on Spigot, visible on MA.  
-    ![!Image 2](../../../assets/img/posts/in-defense-of-spigotmc/image-2.jpg){: loading=lazy }
+    ![!Image 2](../../assets/img/posts/in-defense-of-spigotmc/image-2.jpg){: loading=lazy }
 [^5]:
     Image 3: The response to my request for removal of the Review.  
-    ![!Image 3](../../../assets/img/posts/in-defense-of-spigotmc/image-3.jpg){: loading=lazy }
+    ![!Image 3](../../assets/img/posts/in-defense-of-spigotmc/image-3.jpg){: loading=lazy }
 
 !!! warning "READ FIRST!"
     This post is not an official post by SpigotMC. I do not claim that I am or was a Staff Member of the Spigot team and also don't claim that this post is endorsed by Spigot.  

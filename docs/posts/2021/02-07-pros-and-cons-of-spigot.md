@@ -1,14 +1,18 @@
 ---
-template: giscus.html
-
 title: The Pros and Cons of SpigotMC
 description: The positives and negatives about SpigotMC.org (The forum)
 
-date: '07.02.2021'
+date: 2021-02-07
+
+authors:
+  - andre601
+
+categories:
+  - Minecraft
 
 tags:
-  - spigot
-  - spigotmc
+  - SpigotMC
+  - Minecraft
 ---
 
 [^1]: https://www.spigotmc.org
@@ -28,6 +32,8 @@ SpigotMC[^1] is a well-known site and software in the Minecraft-Community. Almos
 
 With that said do the Forum and Software have a lot of negative things, that annoys developers, server owners and forum users alike for quite some time now.  
 To bring some light to this do I now list both positive and negative things about SpigotMC.
+
+<!-- more -->
 
 !!! warning "Note"
     In this post will I only list Pros and Cons about the **Forum**!  
