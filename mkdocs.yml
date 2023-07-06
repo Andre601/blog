@@ -18,6 +18,14 @@ theme:
   logo: 'assets/img/icon.jpg'
   icon:
     repo: octicons/repo-24
+    tag:
+      mc: material/cube
+      spigot: fontawesome/solid/faucet-drip
+      paypal: fontawesome/brands/paypal
+      java: fontawesome/brands/java
+      discord: fontawesome/brands/discord
+      mastodon: fontawesome/brands/mastodon
+      twitter: fontawesome/brands/twitter
   palette:
     scheme: 'slate'
     primary: 'grey'
@@ -35,6 +43,9 @@ extra_javascript:
 - assets/js/timeago.min.js
 - assets/js/timeago_mkdocs_material.js
 
+watch:
+  - theme
+
 extra:
   social:
     - icon: 'simple/github'
@@ -43,46 +54,30 @@ extra:
       link: 'https://andre601.ch'
     - icon: 'simple/mastodon'
       link: 'https://blobfox.coffee/@andre_601'
+  tags:
+    Minecraft: mc
+    SpigotMC: spigot
+    PayPal: paypal
+    Java: java
+    Discord: discord
+    Mastodon: mastodon
+    Twitter: twitter
 
+nav:
+  - Home: index.md
+  - Tags: tags.md
 
 plugins:
   - search
-  - awesome-pages
-  - redirects:
-      redirect_maps:
-        'posts/in-defense-of-spigotmc.md': 'posts/2020/12-20-in-defense-of-spigotmc.md'
-        'posts/truth-and-lies.md': 'posts/2020/12-24-truth-and-lies.md'
-        'posts/pros-and-cons-of-spigot.md': 'posts/2021/02-07-pros-and-cons-of-spigot.md'
-        'jda-utils-alternatives.md': 'posts/2021/06-13-jda-utilities-alternatives.md'
-        'posts/tags.md': 'tags.md'
-        'reviews/tags.md': 'tags.md'
-  - blogging:
-      dirs:
-        - posts/2020
-        - posts/2021
-        - posts/2022
-      features:
-        tags:
-          index_page: 'tags.md'
-          insert: top
-      categories:
-        - name: reviews
-          dirs:
-            - reviews/2022
-          template: 'theme/blog/blog-override.html'
-          theme:
-            name: card
-          locale: de
-          size: 5
-          time_format: '%d.%m.%Y'
-          meta_time_format: '%d.%m.%Y'
-      template: 'theme/blog/blog-override.html'
-      theme:
-        name: card
-      locale: de
-      size: 5
-      time_format: '%d.%m.%Y'
-      meta_time_format: '%d.%m.%Y'
+  #- awesome-pages # Doesn't seem to be supported by the blog plugin (yet)
+  - blog:
+      blog_dir: .
+      post_url_date_format: yyyy
+      archive: false
+      pagination_template: "$link_first $link_previous ~2~ $link_next $link_last"
+      draft_if_future_date: true
+  - tags:
+      tags_file: tags.md
   - git-revision-date-localized:
       type: custom
       timezone: Europe/Zurich

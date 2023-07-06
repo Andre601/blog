@@ -1,16 +1,20 @@
 ---
-template: giscus.html
-
 title: "Let's talk about your verification system Discord..."
 description: "A long discussion about why Discord's verification system is flawed."
 
-date: '20.10.2021'
+excerpt: |-
+  Discord's Bot verification system has several flaws that they simply ignore. So I made this post on GitHub originally to give some critique on this broken system.
+
+date: 2021-10-20
+
+authors:
+  - andre601
+
+categories:
+  - Critique
 
 tags:
-  - discord
-  - discord-bots
-  - bot-verification
-  - verification
+  - Discord
 ---
 
 [^1]: https://github.com/discord/discord-api-docs/discussions/3971
@@ -56,7 +60,7 @@ Finally, a bot is not infallible and can be hijacked at any moment. Yes, it may 
 After all are bot lists and other, larger servers facing almost weekly if not even daily DM spam from bots and automated users.
 
 ## Lots of flagging in verification
-![Was your bot flagged for Inorganic growth](https://user-images.githubusercontent.com/11576465/137969660-bf97a4d3-caf9-491e-b021-74d4b27485dc.png)
+![Was your bot flagged for Inorganic growth](../../assets/img/posts/lets-talk-about-your-verification-system-discord/inorganic-growth-question.png)
 
 The above graph shows the very first question of my survey, which was whether the dev's bot has been flagged for "Inorganic Growth".  
 While the larger part (`56.4%`) of people answered with a "No", we should not forget that this was indeed a simple "Yes"/"No" question, so the remaining `43.6%` answered with a clear "Yes", which even for such a small amount of participants is quite a large number (17 people out of 39).
@@ -73,7 +77,7 @@ And this seems to be a big issue for Discord. For some reason do they not like i
 
 In my survey, I also asked people whether they received a particular message when their appeal was rejected.
 
-![If you appealed and it was denied, was the message you received the same as shown in the description below_](https://user-images.githubusercontent.com/11576465/137969930-6f8742a8-cd94-483a-bc3f-0755bb2da534.png)
+![If you appealed and it was denied, was the message you received the same as shown in the description below_](../../assets/img/posts/lets-talk-about-your-verification-system-discord/response-message.png)
 
 Here is some important context regarding this particular question and graph.  
 The above graph only depicts responses from devs which...

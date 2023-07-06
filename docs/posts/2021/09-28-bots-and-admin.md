@@ -1,15 +1,22 @@
 ---
-template: giscus.html
-
 title: Why you shouldn't give bots Administrator
 description: A detailed explanation about why it is dangerous giving Administrator to bots or asking for it.
 
-date: '28.09.2021'
+excerpt: |-
+  Bots are a wonderful thing on Discord. They can enhance and improve your Discord server and also protect it from harm.  
+  However, a bot isn't unfailable and security is only as save as the person managing it. Because of that is giving the `Administrator` permission to a bot one of if not even the most dangerous thing you can do. The same goes for asking for this permission in the OAuth2 invite or even relying on it to function.
+
+date: 2021-09-28
+
+authors:
+  - andre601
+
+categories:
+  - General
 
 tags:
-  - discord
-  - discord-bots
-  - bots
+  - Discord
+  - Bots
 ---
 
 [^1]: https://www.spigotmc.org/threads/414289/
@@ -19,7 +26,7 @@ tags:
 [^5]: https://docs.discordsrv.com/Installation/#give-the-bot-the-discord-permissions-it-needs-to-run
 [^6]:
     Here is an example from my own bot which does not allow administrator as a valid permission for itself:  
-    ![!image 1](../../../assets/img/posts/bots-and-admin/image-1.jpg){: loading=lazy }
+    ![!image 1](../../assets/img/posts/bots-and-admin/image-1.jpg){: loading=lazy }
 
 !!! info
     This post is originally from SpigotMC[^1] but I decided to make this blog post to also improve some things from the original.
@@ -57,8 +64,7 @@ Administrator causes more harm than good in the long run. It may save you time, 
 
 ## Why do people give/ask for Administrator?
 
-!!! quote ""
-    *If this permission is so dangerous, why do people give it to bots? And why do Bot-developers ask for it?*
+!!! quote "If this permission is so dangerous, why do people give it to bots? And why do Bot-developers ask for it?"
 
 Well, this can have different reasons, which I will cover some of here.
 

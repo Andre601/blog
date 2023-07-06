@@ -1,16 +1,20 @@
 ---
-template: giscus.html
-
 title: How to use Mastodon
 description: "A (hopefully) useful guide on how you can use and interact with Mastodon."
 
-date: '18.11.2022'
+date: 2022-11-18
+
+authors:
+  - andre601
+
+categories:
+  - Guide
 
 tags:
-  - mastodon
-  - socialmedia
-  - twitter
-  - federation
+  - Mastodon
+  - Socialmedia
+  - Twitter
+  - Federation
 ---
 
 [^1]: https://joinmastodon.org
@@ -20,6 +24,8 @@ Elon Musk has bought Twitter for an incredible amount of money and has since sta
 
 But all this drama also surfaces some new changes.  
 Mastodon[^1] gained a lot of popularity due to the recent events and is currently having around 1.9 million active users on over 6,000 individual servers. People start to move from Twitter to Mastodon as they see the former dying in the forseeable future or at least becoming a less welcoming place for individuals.
+
+<!-- more -->
 
 Since so many people switch to Mastodon are there obviously some that have a hard time understanding the inner workings of this platform (And federation in general), so with this post will I try my best to explain how to get started on Mastodon.
 
@@ -121,6 +127,8 @@ A site that helps you finding the instance most fitting for your interests and n
 This site helps you finding mastodon accounts of people you follow on Twitter (or that follow you there).
 
 #### [`crossposter.masto.donte.com.br`](https://crossposter.masto.donte.com.br/){ target="_blank" }
+
+!!! warning "This page has been discontinued and is no longer available!"
 
 **Requires you to authorize an App for Twitter and Mastodon**
 

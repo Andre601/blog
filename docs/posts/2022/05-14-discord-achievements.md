@@ -1,19 +1,25 @@
 ---
-template: giscus.html
-
 title: How to obtain all Discord Achievements
 description: "An article describing how you can obtain all achievements for Discord's 'Party Mode'."
 
-date: '14.05.2022'
+date: 2022-05-14
+
+authors:
+  - andre601
+
+categories:
+  - Guide
 
 tags:
-  - discord
-  - birthday-event
+  - Discord
+  - DiscordBirthday
 ---
 
 [^1]: https://github.com/Discord-Datamining/Discord-Datamining/commit/f6847bd53f189f12c954a992c00924263fa02e8f#commitcomment-73618810
 
-This page lists all Achievements that are available during Discord's 7th birthday celebration called "Party Mode".
+This page lists all Achievements that were available during Discord's 7th birthday celebration called "Party Mode".
+
+<!-- more -->
 
 ## Contribute
 
@@ -34,14 +40,14 @@ Those Achievements are fairly easy to obtain and do not require a lot of work or
 
 ??? info "Is this thing on?"
     <h3>Image</h3>
-    ![is-this-thing-on]{ loading="lazy" }
+    ![is-this-thing-on][is-this-thing-on]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Enable Party Mode.
 
 ??? info "The IT Solution"
     <h3>Image</h3>
-    ![the-it-solution]{ loading="lazy" }
+    ![the-it-solution][the-it-solution]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Disable Party Mode.
@@ -51,35 +57,35 @@ Those Achievements are fairly easy to obtain and do not require a lot of work or
 
 ??? info "More!!"
     <h3>Image</h3>
-    ![more]{ loading="lazy" }
+    ![more][more]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Set shaking to "AAAAA" (Full strength).
 
 ??? info "Stuck in the character creator"
     <h3>Image</h3>
-    ![stuck-in-character-creation]{ loading="lazy" }
+    ![stuck-in-character-creation][stuck-in-character-creation]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Change the confetty settings (Any setting should work).
 
 ??? info "Is it me you're looking for?"
     <h3>Image</h3>
-    ![is-it-me-youre-looking-for]{ loading="lazy" }
+    ![is-it-me-youre-looking-for][is-it-me-youre-looking-for]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Mention someone in a message.
 
 ??? info "*Discord notification sound*"
     <h3>Image</h3>
-    ![discord-notification-sound]{ loading="lazy" }
+    ![discord-notification-sound][discord-notification-sound]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Get mentioned in a Message.
 
 ??? info "Prepare for trouble"
     <h3>Image</h3>
-    ![prepare-for-trouble]{ loading="lazy" }
+    ![prepare-for-trouble][prepare-for-trouble]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a x2 Combo.  
@@ -90,7 +96,7 @@ Those Achievements are fairly easy to obtain and do not require a lot of work or
 
 ??? info "And Make It Double"
     <h3>Image</h3>
-    ![and-make-it-double]{ loading="lazy" }
+    ![and-make-it-double][and-make-it-double]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a x4 Combo.  
@@ -101,7 +107,7 @@ Those Achievements are fairly easy to obtain and do not require a lot of work or
 
 ??? info "A Puebla Party"
     <h3>Image</h3>
-    ![a-puebla-party]{ loading="lazy" }
+    ![a-puebla-party][a-puebla-party]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a x5 Combo.  
@@ -109,7 +115,7 @@ Those Achievements are fairly easy to obtain and do not require a lot of work or
 
 ??? info "Happy Birthday!!"
     <h3>Image</h3>
-    ![happy-birthday]{ loading="lazy" }
+    ![happy-birthday][happy-birthday]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a x7 Combo.  
@@ -125,7 +131,7 @@ They are for the most party connected to the score.
 
 ??? info "Click for your free prize!"
     <h3>Image</h3>
-    ![click-for-your-free-prize]{ loading="lazy" }
+    ![click-for-your-free-prize][click-for-your-free-prize]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Be the 100th visitor on the "Party Mode" Tab.  
@@ -136,14 +142,14 @@ They are for the most party connected to the score.
 
 ??? info "Will you still need me?"
     <h3>Image</h3>
-    ![will-you-still-need-me]{ loading="lazy" }
+    ![will-you-still-need-me][will-you-still-need-me]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a score of 64.
 
 ??? info "Travel through time"
     <h3>Image</h3>
-    ![travel-through-time]{ loading="lazy" }
+    ![travel-through-time][travel-through-time]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a score of 88.
@@ -153,7 +159,7 @@ They are for the most party connected to the score.
 
 ??? info "80's pop"
     <h3>Image</h3>
-    ![80s-pop]{ loading="lazy" }
+    ![80s-pop][80s-pop]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a score of 99.
@@ -163,7 +169,7 @@ They are for the most party connected to the score.
 
 ??? info "Animation fan"
     <h3>Image</h3>
-    ![animation-fan]{ loading="lazy" }
+    ![animation-fan][animation-fan]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a score of 113
@@ -173,21 +179,21 @@ They are for the most party connected to the score.
 
 ??? info "Two birds, one stone"
     <h3>Image</h3>
-    ![two-birds-one-stone]{ loading="lazy" }
+    ![two-birds-one-stone][two-birds-one-stone]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a score of 430
 
 ??? info "Klondike's Cell"
     <h3>Image</h3>
-    ![klondikes-cell]{ loading="lazy" }
+    ![klondikes-cell][klondikes-cell]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a score of 555.
 
 ??? info "Gonna be the very best"
     <h3>Image</h3>
-    ![gonna-be-the-very-best]{ loading="lazy" }
+    ![gonna-be-the-very-best][gonna-be-the-very-best]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a score of 898
@@ -199,7 +205,7 @@ They are for the most party connected to the score.
 
 ??? info "Be elite"
     <h3>Image</h3>
-    ![be-elite]{ loading="lazy" }
+    ![be-elite][be-elite]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a score of 1337.
@@ -209,7 +215,7 @@ They are for the most party connected to the score.
 
 ??? info "A slide Pizzle (Actually 'A slide Puzzle')"
     <h3>Image</h3>
-    ![a-slide-puzzle]{ loading="lazy" }
+    ![a-slide-puzzle][a-slide-puzzle]{ loading="lazy" }
     
     <h3>How to get it</h3>
     Reach a score of 2048.
@@ -221,24 +227,24 @@ They are for the most party connected to the score.
 
 --8<-- "footnotes.md"
 
-[is-this-thing-on]: https://user-images.githubusercontent.com/11576465/168395657-47dd0dde-b5bf-4685-99d4-5d98a2d5562a.png
-[the-it-solution]: https://user-images.githubusercontent.com/11576465/168395708-f03166a6-15d0-41f4-a7fb-5356fabd31d0.png
-[more]: https://user-images.githubusercontent.com/11576465/168397164-445fd6b4-f624-46fa-bdf3-ae6840ce1931.png
-[stuck-in-character-creation]: https://user-images.githubusercontent.com/11576465/168397239-93995bcd-0ea3-4dd9-bc7f-5fbf731534e7.png
-[is-it-me-youre-looking-for]: https://user-images.githubusercontent.com/11576465/168397289-02067f7d-d9d2-410f-a659-86288534a006.png
-[discord-notification-sound]: https://user-images.githubusercontent.com/11576465/168397335-8115f939-0835-4821-8406-ad424b65fb8a.png
-[prepare-for-trouble]: https://user-images.githubusercontent.com/11576465/168397393-9e37e8fd-9865-466d-9f76-0b9a922bdd9b.png
-[and-make-it-double]: https://user-images.githubusercontent.com/11576465/168397605-ffa75b13-ed59-4c11-8439-2ece35e3a064.png
-[a-puebla-party]: https://user-images.githubusercontent.com/11576465/168397705-2d7549c2-f2ff-493e-8d67-fb81f5d39ad8.png
-[happy-birthday]: https://user-images.githubusercontent.com/11576465/168397824-e1ec0c99-9a23-4a20-bf8d-d548e0d90dc8.png
+[is-this-thing-on]: ../../assets/img/posts/discord-achievements/is-this-thing-on.png
+[the-it-solution]: ../../assets/img/posts/discord-achievements/the-it-solution.png
+[more]: ../../assets/img/posts/discord-achievements/more.png
+[stuck-in-character-creation]: ../../assets/img/posts/discord-achievements/stuck-in-character-creation.png
+[is-it-me-youre-looking-for]: ../../assets/img/posts/discord-achievements/is-it-me-youre-looking-for.png
+[discord-notification-sound]: ../../assets/img/posts/discord-achievements/discord-notification-sound.png
+[prepare-for-trouble]: ../../assets/img/posts/discord-achievements/prepare-for-trouble.png
+[and-make-it-double]: ../../assets/img/posts/discord-achievements/and-make-it-double.png
+[a-puebla-party]: ../../assets/img/posts/discord-achievements/a-puebla-party.png
+[happy-birthday]: ../../assets/img/posts/discord-achievements/happy-birthday.png
 
-[click-for-your-free-prize]: https://user-images.githubusercontent.com/11576465/168398019-cf4a66f2-bff6-4ac8-aed6-7b432d3c5be3.png
-[will-you-still-need-me]: https://user-images.githubusercontent.com/11576465/168398066-1de58512-0e46-4a2f-8afe-2cd6237268ca.png
-[travel-through-time]: https://user-images.githubusercontent.com/11576465/168398187-fc46320b-3525-408b-b109-07cac9f328a3.png
-[80s-pop]: https://user-images.githubusercontent.com/11576465/168398235-46694c5f-2ce2-4324-ac94-2dd34d426f73.png
-[animation-fan]: https://user-images.githubusercontent.com/11576465/168398347-7203bd81-03d9-4e5a-9213-08bc962a634e.png
-[two-birds-one-stone]: https://user-images.githubusercontent.com/11576465/168399057-f7626324-53ec-4bc7-af45-a098ce5e4b9c.png
-[klondikes-cell]: https://user-images.githubusercontent.com/11576465/168399017-95e34ce0-c959-416c-9ffe-a66441b4aa21.png
-[gonna-be-the-very-best]: https://user-images.githubusercontent.com/11576465/168398979-7fe7e220-5ff9-46bc-a042-8c216fd50e93.png
-[be-elite]: https://user-images.githubusercontent.com/11576465/168398857-27569555-2a4a-440e-b8f2-087082c68f11.png
-[a-slide-puzzle]: https://user-images.githubusercontent.com/11576465/168398777-e24c9075-8eb5-4f13-8882-4bc356cea4c5.png
+[click-for-your-free-prize]: ../../assets/img/posts/discord-achievements/click-for-your-free-price.png
+[will-you-still-need-me]: ../../assets/img/posts/discord-achievements/will-you-still-need-me.png
+[travel-through-time]: ../../assets/img/posts/discord-achievements/travel-through-time.png
+[80s-pop]: ../../assets/img/posts/discord-achievements/80s-pop.png
+[animation-fan]: ../../assets/img/posts/discord-achievements/animation-fan.png
+[two-birds-one-stone]: ../../assets/img/posts/discord-achievements/two-birds-one-stone.png
+[klondikes-cell]: ../../assets/img/posts/discord-achievements/klonedikes-cell.png
+[gonna-be-the-very-best]: ../../assets/img/posts/discord-achievements/gonna-be-the-very-best.png
+[be-elite]: ../../assets/img/posts/discord-achievements/be-elite.png
+[a-slide-puzzle]: ../../assets/img/posts/discord-achievements/a-slide-puzzle.png

@@ -1,15 +1,19 @@
 ---
-template: giscus.html
-
 title: Alternatives for JDA-Utilities
 description: A list of alternatives for JDA-Utilities that also lists pros and cons
 
-date: '13.06.2021'
+date: 2021-06-13
+
+authors:
+  - andre601
+
+categories:
+  - Programming
 
 tags:
-  - jda
-  - jda-utilities
-  - jda-utils
+  - JDA
+  - JDA-Utilities
+  - Java
 ---
 
 [^1]: https://github.com/JDA-Applications/JDA-Utilities
@@ -21,6 +25,8 @@ Unfortunately has the library entered a state of not being updated nor maintaine
 
 This page attempts to list all known alternatives for (parts of) JDA-Utilities.  
 If you know an alternative that isn't listed here, let me know in the JDA-Discord[^3], so that I can update this page.
+
+<!-- more -->
 
 !!! warning "Note"
     The list is in **no particular order**.  

@@ -1,13 +1,21 @@
 ---
-template: giscus.html
-
 title: What is new in ItemsAdder v3.3.0?
 description: "A quick overview over the changes made in ItemsAdder v3.3.0"
 
+excerpt: This blog post explains the main differences between ItemsAdder 3.3.0 and previous versions.
+
+date: 2022-11-21
+
+authors:
+  - andre601
+
+categories:
+  - Guide
+
 tags:
-  - minecraft
-  - resource-packs
-  - itemsadder
+  - Minecraft
+  - ResourcePack
+  - ItemsAdder
 ---
 
 [^1]: Generated using https://tree.nathanfriend.io
@@ -18,7 +26,7 @@ tags:
     
     To learn how to create custom items, blocks, etc. read my previous post about ItemsAdder:
     
-    [Understand and create custom ItemsAdder Items](../10-29-itemsadder){ .md-button }
+    [Understand and create custom ItemsAdder Items](../understand-and-create-custom-itemsadder-items){ .md-button }
 
 ## Structure
 
