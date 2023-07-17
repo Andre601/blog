@@ -8,6 +8,9 @@
 
 # Blog
 
+> **Note**
+> This Repo has moved! New location: https://codeberg.org/Andre601/blog-source
+
 This is the repository which hosts the pages you can find on https://andre601.ch/blog.
 
 We use [MkDocs] to turn Markdown files into static HTML pages.  
